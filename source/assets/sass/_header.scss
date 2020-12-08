@@ -1,0 +1,512 @@
+//------------------------------------------------------------layout
+.header {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 100%;
+
+	@include z-index(header);
+}
+
+.header_row {
+	@extend %global_flex_block_row_nowrap_flex-end_center;
+
+	position: absolute;
+	width: 100%;
+	height:$header_height;
+	left: 100%;
+	top: 0;
+	padding:0 $gl_hor_indent;
+	background: rgba(255,255,255,.9);
+
+	&.shadow_mod {
+		box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	}
+
+	@include z-index(header_menu);
+	@include bp($point_3) {
+		transition:transform .3s ease;
+
+		height: 100%;
+		background: rgba($black, .95);
+		transform:translate(0,-100%);
+		overflow: auto;
+
+		.menu_open & {
+			transform:translate(0,0);
+			display: block;
+			padding: 9rem 3rem 3rem;
+		}
+
+		//@include flex_block(row, nowrap, center, center);
+	}
+	@include bp($point_3) {
+		padding:0 $gl_hor_mobile_indent;
+	}
+}
+.header_logo_row {
+	@extend %global_flex_block_row_nowrap_flex_start_center;
+
+	position: absolute;
+	width: auto;
+	height:$header_height;
+	left: 100%;
+	top: 0;
+	padding:0 $gl_hor_indent;
+	//background: $white;
+
+	&.shadow_mod {
+		box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	}
+
+	z-index: 51;
+
+	@include bp($point_6){
+		width: 70px;
+		overflow: hidden;
+	}
+
+	@include bp($point_3) {
+		width: 280px;
+		padding:0 $gl_hor_mobile_indent;
+	}
+}
+
+//------------------------------------------------------------layout###
+
+//------------------------------------------------------------logo
+.header_logo_block {
+	flex:1 1 auto;
+	font-size: 0;
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
+.header_logo_w {
+	display: inline-block;
+	img {
+		height: 4rem;
+	}
+}
+
+.header_row_in {
+	@extend %global_flex_block_row_nowrap_flex_start_center;
+
+	@include bp($point_3) {
+		//@include flex_block(column, nowrap, flex-start, center);
+		display: block;
+	}
+}
+//------------------------------------------------------------logo###
+
+//------------------------------------------------------------menu
+.header_nav {
+}
+
+.header_nav_list {
+	@extend %global_flex_block_row_nowrap_flex_start_center;
+
+	@include bp($point_3) {
+		display: block;
+		//@include flex_block(column, nowrap, flex-start, center);
+	}
+}
+
+.header_nav_item {
+	position: relative;
+	padding:0 0 0 $gl_indent*2.4;
+	&:first-child {
+		padding: 0;
+	}
+	@include bp($point_0) {
+		padding:0 0 0 $gl_indent*1;
+	}
+	@include bp($point_3) {
+		padding:$gl_indent*2 0 0;
+	}
+}
+
+.header_nav_link {
+	font-family:$proxima_extra_b;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	color:$dark_1;
+	white-space: nowrap;
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+	&.has_sub_mod {
+		position: relative;
+		display: block;
+		padding:0 $gl_indent*3 0 0;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			right: 0;
+			display: block;
+			width: 2rem;
+			height: 2rem;
+			margin-top:-1rem;
+			box-shadow:inset 0 0 0 1px $dark_1;
+			border-radius: 50%;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			right: .6rem;
+			display: block;
+			margin-top:-.1rem;
+
+			@include triangle(bottom,$dark_1,.4rem);
+		}
+		@include bp($point_3) {
+			&:before {
+				box-shadow:inset 0 0 0 1px $white;
+			}
+			&:after {
+				@include triangle(bottom,$white,.4rem);
+			}
+		}
+	}
+	@include bp($point_3) {
+		font-size: 4rem;
+		color:$white;
+	}
+	@include bp($point_4) {
+		font-size: 3rem;
+	}
+}
+
+
+//------------------------------------------------------------menu###
+//---------------------------------------------ui block
+.header_ui_w {
+	@extend %global_flex_block_row_nowrap_flex_start_center;
+
+	padding:0 0 0 $gl_indent*2;
+
+	@include bp($point_3) {
+		padding:$gl_indent*4 0 0;
+	}
+	@include bp($point_3) {
+		display: block;
+		//@include flex_block(column,nowrap,center,center);
+	}
+}
+
+.header_ui_item {
+	padding:0 0 0 $gl_indent*2.2;
+	position: relative;
+	white-space: nowrap;
+
+	&:first-child {
+		padding: 0;
+	}
+
+	@include bp($point_0) {
+		padding:0 0 0 $gl_indent*1;
+	}
+
+	@include bp($point_2){
+		&.mod_not_important{
+			display: none;
+		}
+	}
+
+	@include bp($point_3) {
+		padding:$gl_indent*2 0 0;
+	}
+}
+
+.sub_items{
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: -20px;
+	padding-top: 33px;
+	.header_ui_item:hover &,
+	.header_nav_item:hover &{
+		display: block;
+	}
+}
+
+@include bp($point_3) {
+	.header_nav_item{
+		.sub_items{
+			display: block;
+			position: relative;
+			top: auto;
+			right: auto;
+			padding-top: 0;
+		}
+
+		.sub_item_link{
+			background: transparent;
+			color: #FFF;
+		}
+	}
+}
+
+.sub_item_link{
+	display: block;
+	padding: $gl_indent $gl_indent*2;
+	border-bottom: 1px solid $gray_1;
+	background: #FFF;
+	font-family: $proxima_b;
+	text-transform: uppercase;
+	&:hover{
+		background: $blue_2;
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+.header_reg_butt {
+	@extend %butt_1;
+	@extend %butt_blue_1;
+	@extend %icon-registration;
+
+	padding:0 $gl_indent*2.4 0 $gl_indent*6.2;
+	position: relative;
+	&:before {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 6.6rem;
+		margin-top:-.4rem;
+		text-align: center;
+		line-height: 5rem;
+		font-size: 2.6rem;
+	}
+	@include bp($point_1_1){
+		width: 5rem;
+		padding: 0;
+		&:before {
+			width: 5rem;
+
+		}
+	}
+}
+
+.header_reg_butt_in {
+	@include bp($point_1_1){
+		display: none;
+	}
+}
+
+.header_price_butt {
+	@extend %butt_1;
+	@extend %butt_light_1;
+}
+
+.header_search_butt {
+	@extend %butt_round_1;
+	@extend %butt_blue_1;
+	@extend %icon-magnifying-glass;
+
+	&:before {
+		font-size: 2.4rem;
+	}
+}
+
+.header_enter_butt {
+	@extend %butt_1;
+	@extend %butt_dark_1;
+	@extend %icon-log_in;
+
+	padding:0 $gl_indent*2.4 0 $gl_indent*6.2;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 6.6rem;
+		text-align: center;
+		line-height: 5rem;
+		font-size: 2.6rem;
+	}
+	@include bp($point_1_1){
+		width: 5rem;
+		padding: 0;
+		&:before {
+			width: 5rem;
+
+		}
+	}
+}
+
+.header_logout_butt {
+	@extend %butt_1;
+	@extend %butt_blue_1;
+	@extend %icon-log_out;
+
+	padding:0 $gl_indent*2.4 0 $gl_indent*6.2;
+	position: relative;
+	&:before {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 6.6rem;
+		text-align: center;
+		line-height: 5rem;
+		font-size: 2.6rem;
+	}
+	@include bp($point_1_1){
+		width: 5rem;
+		padding: 0;
+		&:before {
+			width: 5rem;
+
+		}
+	}
+}
+
+.header_mycab_butt {
+	@extend %butt_1;
+	@extend %butt_dark_1;
+	@extend %icon-lock_secure;
+
+	padding:0 $gl_indent*2.4 0 $gl_indent*6.2;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 6.6rem;
+		text-align: center;
+		line-height: 5rem;
+		font-size: 2.6rem;
+	}
+	@include bp($point_1_1){
+		width: 5rem;
+		padding: 0;
+		&:before {
+			width: 5rem;
+
+		}
+	}
+}
+
+.header_choose_lang {
+	position: relative;
+	padding:0 $gl_indent 0 0;
+	font-size: 1.8rem;
+	font-family:$proxima_b;
+	text-transform: uppercase;
+	color:$dark_1;
+
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+
+	&:before {
+		content:'';
+		position: absolute;
+		top: 50%;
+		right: 0;
+		margin-top:-.2rem;
+
+		@include triangle(bottom,$dark_1,.4rem);
+	}
+
+	@include bp($point_3) {
+		color:$white;
+
+		&:before {
+			@include triangle(bottom,$white,.4rem);
+		}
+	}
+}
+
+//---------------------------------------------ui block###
+
+//------------------------------------------------------------trigger
+.head_menu_trigger {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	height: $header_height;
+	padding: 0 $gl_indent*3;
+	width: 100%;
+	background: #FFF;
+}
+
+@mixin user_menu_butt_line {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background: $black;
+	height: .4rem;
+	top: $gl_indent*1.1;
+}
+
+.user_menu_butt {
+	z-index: 210;
+	position: absolute;
+	top: 50%;
+	right: $gl_hor_indent;
+	display: none; //hidden on desctop
+	height: 2.6rem;
+	width: 3.8rem;
+	margin-top: -1.3rem;
+	text-transform: uppercase;
+	color: transparent;
+	cursor: pointer;
+
+	@include bp($point_3) {
+		display: block;
+	}
+	@include bp($point_3) {
+		right:$gl_hor_mobile_indent;
+	}
+
+	&:before {
+		content: '';
+		transform: translate(0, -13rem);
+		transition: all .3s ease;
+
+		@include user_menu_butt_line;
+		@include bp($point_3) {
+			transform: translate(0, -1rem);
+		}
+	}
+	&:after {
+		content: '';
+		transform: translate(0, 1.3rem);
+		transition: all .3s ease;
+		@include user_menu_butt_line;
+		@include bp($point_3) {
+			transform: translate(0, 1rem);
+		}
+	}
+	&.active_mod {
+		&:before {
+			transform: (rotate(45deg) translate(0, 0));
+			background: $white;
+		}
+
+		&:after {
+			transform: (rotate(-45deg) translate(0, 0));
+			background: $white;
+		}
+	}
+}
+
+.user_menu_butt_decor {
+	transition: all .3s ease;
+	.active_mod & {
+		opacity: 0;
+		transform: translate(100%, 0);
+	}
+
+	@include user_menu_butt_line;
+}
+//------------------------------------------------------------trigger###

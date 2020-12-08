@@ -1,0 +1,7 @@
+{'ms2Gallery' | snippet : [
+    'frontend_css' => 'УДАЛИТЬ, ЕСЛИ НУЖЕН ФАЙЛ CSS ПО-УМОЛЧАНИЮ',
+    'frontend_js' => 'УДАЛИТЬ, ЕСЛИ НУЖЕН ФАЙЛ JS ПО-УМОЛЧАНИЮ',
+    'parents' => 0,
+    'resources' => 'ID ресурсов через запятую',
+    'tpl' => '@INLINE {foreach $files as $file}<img src="{$file.small ?: $file.url}" alt="{$file.alt | htmlent}"/>{/foreach}'
+]}

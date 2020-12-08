@@ -1,0 +1,194 @@
+$icon_font_name: "elvert_iconfont";
+@font-face {
+	font-family:$icon_font_name;
+	src: url('../fonts/icons/elvert_iconfont.eot');
+	src: url('../fonts/icons/elvert_iconfont.eot?#iefix') format('eot'),
+	url('../fonts/icons/elvert_iconfont.woff') format('woff'),
+	url('../fonts/icons/elvert_iconfont.ttf') format('truetype'),
+	url('../fonts/icons/elvert_iconfont.svg#iconfont') format('svg');
+}
+%icon-arrow-left,
+%icon-arrow-right,
+%icon-burger,
+%icon-check_round,
+%icon-connector,
+%icon-doc_down,
+%icon-doc_pdf,
+%icon-doc_st,
+%icon-docx,
+%icon-doorkey,
+%icon-empty,
+%icon-facebook,
+%icon-google,
+%icon-info,
+%icon-instagram,
+%icon-location,
+%icon-lock_secure,
+%icon-log_in,
+%icon-log_out,
+%icon-magnifying-glass,
+%icon-mail,
+%icon-map,
+%icon-marketplace-icon,
+%icon-musicplayer,
+%icon-padlock,
+%icon-pdf,
+%icon-ppt,
+%icon-registration,
+%icon-rss,
+%icon-share,
+%icon-star,
+%icon-tech-master,
+%icon-tool,
+%icon-user,
+%icon-vk,
+%icon-youtube,
+%last_selector {
+		&:before {
+			font-family:$icon_font_name;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+			text-decoration: none;
+			text-transform: none;
+		}
+	}
+
+%icons_before_after {
+	&:before,
+	&:after {
+		font-family: $icon_font_name;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+%icons_after {
+	&:after {
+		font-family: $icon_font_name;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+%icon-arrow-left:before {
+	content:'\E001';
+}
+%icon-arrow-right:before {
+	content:'\E002';
+}
+%icon-burger:before {
+	content:'\E003';
+}
+%icon-check_round:before {
+	content:'\E004';
+}
+%icon-connector:before {
+	content:'\E005';
+}
+%icon-doc_down:before {
+	content:'\E006';
+}
+%icon-doc_pdf:before {
+	content:'\E007';
+}
+%icon-doc_st:before {
+	content:'\E008';
+}
+%icon-docx:before {
+	content:'\E009';
+}
+%icon-doorkey:before {
+	content:'\E00A';
+}
+%icon-empty:before {
+	content:'\E00B';
+}
+%icon-facebook:before {
+	content:'\E00C';
+}
+%icon-google:before {
+	content:'\E00D';
+}
+%icon-info:before {
+	content:'\E00E';
+}
+%icon-instagram:before {
+	content:'\E00F';
+}
+%icon-location:before {
+	content:'\E010';
+}
+%icon-lock_secure:before {
+	content:'\E011';
+}
+%icon-log_in:before {
+	content:'\E012';
+}
+%icon-log_out:before {
+	content:'\E013';
+}
+%icon-magnifying-glass:before {
+	content:'\E014';
+}
+%icon-mail:before {
+	content:'\E015';
+}
+%icon-map:before {
+	content:'\E016';
+}
+%icon-marketplace-icon:before {
+	content:'\E017';
+}
+%icon-musicplayer:before {
+	content:'\E018';
+}
+%icon-padlock:before {
+	content:'\E019';
+}
+%icon-pdf:before {
+	content:'\E01A';
+}
+%icon-ppt:before {
+	content:'\E01B';
+}
+%icon-registration:before {
+	content:'\E01C';
+}
+%icon-rss:before {
+	content:'\E01D';
+}
+%icon-share:before {
+	content:'\E01E';
+}
+%icon-star:before {
+	content:'\E01F';
+}
+%icon-tech-master:before {
+	content:'\E020';
+}
+%icon-tool:before {
+	content:'\E021';
+}
+%icon-user:before {
+	content:'\E022';
+}
+%icon-vk:before {
+	content:'\E023';
+}
+%icon-youtube:before {
+	content:'\E024';
+}

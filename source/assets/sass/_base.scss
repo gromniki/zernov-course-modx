@@ -1,0 +1,95 @@
+//------------------------------------------------------------base styles
+html {
+	height: 100%;
+	font: normal 10px/1.33 $font_1;
+	font-weight: 300;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	font-size:$base_font_size;
+	color: $def_text_color;
+	-webkit-text-size-adjust: none;
+	background: $body_bg;
+
+	&.not_found_mod {
+		background: url(../i/404_bg.jpg) center center no-repeat;
+		background-size: cover;
+	}
+	&.menu_open {
+		overflow: hidden;
+		height: 100%;
+	}
+}
+.wrapper {
+	position: relative;
+	min-height:100%;
+	height: auto !important;
+	overflow:hidden;
+
+	&.not_found_mod {
+		@extend %global_flex_block_column_nowrap_center_center;
+
+		height: 100vh !important;
+	}
+}
+.disable-hover,
+.disable-hover * {
+	pointer-events: none !important;
+}
+
+a {
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
+
+.hide {
+	display: none !important;
+}
+
+.base {
+	position:relative;
+	&.footer_v1_mod {
+		padding: $header_height 0 $footer_height_1;
+
+		@include bp($point_1_3) {
+			padding:$header_height 0 0;
+		}
+	}
+	&.footer_v2_mod {
+		padding:$header_height 0 $footer_height_2;
+
+		@include bp($point_1_3) {
+			padding:$header_height 0 0;
+		}
+	}
+	&.split_mod {
+		@extend %global_flex_block_row_nowrap_flex-start_stretch;
+
+		padding-left:$gl_hor_indent;
+		padding-right:$gl_hor_indent;
+
+		@include bp($point_1_3) {
+			@include flex_block(column,nowrap,flex-start,flex-start);
+		}
+		@include bp($point_3) {
+			padding-left:$gl_hor_mobile_indent;
+			padding-right:$gl_hor_mobile_indent;
+		}
+	}
+}
+.elements_list {
+	padding:3rem;
+}
+a {
+	color:$blue_1;
+}
+
+.no_scroll{
+	overflow: hidden !important;
+}
+//------------------------------------------------------------base styles###

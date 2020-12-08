@@ -1,0 +1,51 @@
+p{
+	padding-top: $gl_indent*2;
+
+	&.big {
+		font-size: 2rem;
+		line-height: 1.7;
+	}
+	&.small {
+		line-height: 2.125;
+	}
+
+	&:first-child {
+		padding-top: 0;
+	}
+}
+
+ul{
+	padding-top: $gl_indent*2;
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+	list-style: disc outside;
+	padding-left: $gl_indent*4;
+	li{
+		margin-top: $gl_indent;
+		&:first-child{
+			margin-top: 0;
+		}
+		list-style: disc outside;
+	}
+}
+
+ol{
+	padding-top: $gl_indent*2;
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+	list-style: decimal outside;
+	padding-left: $gl_indent*4;
+	li{
+		margin-top: $gl_indent;
+		&:first-child{
+			margin-top: 0;
+		}
+		list-style: decimal outside;
+	}
+}

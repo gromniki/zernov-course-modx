@@ -1,0 +1,10 @@
+{'ms2GalleryResources' | snippet : [
+    'includeThumbs' => 'ИМЕНА ПРЕВЬЮШЕК ДЛЯ ВКЛЮЧЕНИЯ В ВЫБОРКУ',
+    'tpl' => 'ЧАНК ОТДЕЛЬНОГО РЕСУРСА',
+    'sortby' => '{"menuindex":"ASC"}',
+    'parents' => '0',
+    'resources' => 'ID РЕСУРСОВ ЧЕРЕЗ ЗАПЯТУЮ, ЛИБО УДАЛИТЬ ПАРАМЕТР',
+    'includeTVs' => 'ИМЕНА TV ДЛЯ ВКЛЮЧЕНИЯ В ВЫБОРКУ',
+    'processTVs' => 'ИМЕНА TV ДЛЯ ОБРАБОТКИ ПРИ ВКЛЮЧЕНИИ В ВЫБОРКУ',
+    'tvPrefix' => ''
+]}

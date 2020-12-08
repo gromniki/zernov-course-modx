@@ -1,0 +1,217 @@
+//---------------------------------------------where by block
+.where_buy_block {
+	&.v1_mod {
+		padding: $gl_indent*5 $gl_hor_indent;
+		background: url(../i/where_buy_bg_1.png) 50% 50% no-repeat;
+		background-size: cover;
+
+		@include bp($point_3) {
+			padding:$gl_indent*3 $gl_hor_mobile_indent;
+		}
+	}
+	&.v3_mod {
+		padding: $gl_indent*6 $gl_hor_indent $gl_indent*7;
+
+		@include bp($point_3) {
+			padding:$gl_indent*3 $gl_hor_mobile_indent;
+		}
+	}
+	&.v4_mod {
+		min-height: 60rem;
+		padding:$gl_indent*8 $gl_hor_indent;
+		text-align: center;
+		background: url(../i/map_bg_2.png) center bottom no-repeat;
+		background-size:100% auto;
+
+		@include bp($point_3) {
+			padding:$gl_indent*3 $gl_hor_mobile_indent;
+		}
+	}
+}
+
+.where_buy_block_in {
+	&.v1_mod {
+		@extend %global_flex_block_row_nowrap_space_between_center;
+
+		width: 50%;
+		margin: 0 auto;
+
+		@include bp($point_6) {
+			width: 100%;
+
+			@include flex_block(row,nowrap,center,center);
+		}
+
+		@include bp($point_3) {
+			@include flex_block(column,nowrap,center,center);
+		}
+	}
+	&.v3_mod {
+		width: 55%;
+		margin: 0 auto;
+		font-size: 2rem;
+
+		@include bp($point_1) {
+			width: 80%;
+		}
+		@include bp($point_2) {
+			width: 100%;
+		}
+	}
+	&.v4_mod {
+		width: 70%;
+		margin: 0 auto;
+
+		@include bp($point_3) {
+			width: 100%;
+		}
+	}
+}
+
+.where_buy_title {
+	&.v1_mod {
+		padding: 0 $gl_indent*8 0 0;
+		font-size: 4.6rem;
+		font-family: $proxima_extra_b;
+		text-transform: uppercase;
+		color: $white;
+
+		@include bp($point_3) {
+			text-align: center;
+			padding:0 0 $gl_indent*2;
+		}
+	}
+	&.v2_mod, &.v3_mod {
+		@extend %black_title_1;
+	}
+	&.v3_mod {
+		padding:$gl_indent 0 0 0;
+		text-align: center;
+	}
+}
+
+.where_buy_butt {
+	&.v1_mod {
+		@extend %butt_3;
+		@extend %butt_white_1;
+
+		max-width: 30rem;
+		flex:0 0 auto;
+		white-space: nowrap;
+	}
+	&.v2_mod,&.v4_mod {
+		@extend %butt_3;
+		@extend %butt_blue_1;
+
+		max-width: 30rem;
+		margin: $gl_indent*5 0 0 0;
+	}
+	&.v3_mod {
+		@extend %butt_3;
+		&.show_mod {
+			@extend %butt_blue_1;
+		}
+		&.reset_mod {
+			@extend %butt_light_2;
+		}
+	}
+	&.v4_mod {
+		margin:$gl_indent*5 auto 0;
+	}
+}
+
+.where_buy_butt_in {
+	&.v1_mod {
+		@extend %butt_white_1_in;
+	}
+	&.v2_mod,&.v4_mod {
+		@extend %butt_blue_1_in;
+	}
+}
+
+.where_buy_text {
+	&.v2_mod {
+		color: $gray_2;
+		font-size: 2rem;
+	}
+}
+
+.where_buy_text {
+	&.v3_mod {
+	}
+}
+
+.where_buy_form {
+	&.v1_mod {
+		padding:$gl_indent*4 $gl_indent*8 0;
+
+		@include bp($point_6) {
+			padding:$gl_indent*4 0;
+		}
+	}
+}
+
+.where_buy_inputs_list {
+	@extend %global_flex_block_row_wrap_flex-start_stretch;
+
+	margin:0 (-$gl_indent);
+}
+
+.where_buy_inputs_item {
+	flex:0 0 auto;
+	padding:0 $gl_indent $gl_indent*2;
+	&.v1_mod {
+		width: 100%;
+	}
+	&.v2_mod {
+		width: 50%;
+
+		@include bp($point_3) {
+			width: 100%;
+		}
+	}
+	&.v3_mod {
+		width: 33.33%;
+
+		@include bp($point_1) {
+			width: 100%;
+		}
+	}
+}
+
+.where_buy_butt_list {
+	@extend %global_flex_block_row_nowrap_center;
+
+	padding:$gl_indent*2 0 0 0;
+
+	@include bp($point_3) {
+		@include flex_block(column,nowrap,center,center);
+	}
+}
+
+.where_buy_butt_item {
+	flex:0 0 auto;
+	width: 33%;
+	padding:0 $gl_indent;
+
+	@include bp($point_3) {
+		width: 100%;
+		padding:$gl_indent*2 0 0;
+
+		&:first-child {
+			padding: 0;
+		}
+	}
+}
+.where_buy_find_butt_w {
+	text-align: right;
+}
+.where_buy_find_butt {
+	@extend %butt_3;
+	@extend %butt_blue_1;
+
+	display: inline-block;
+	width: 26rem;
+	margin:$gl_indent*2 0 0;
+}
+//---------------------------------------------where by block###

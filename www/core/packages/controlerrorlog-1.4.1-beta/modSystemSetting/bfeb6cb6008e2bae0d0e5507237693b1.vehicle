@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'controlerrorlog',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd46a0bbb27b75e90ba2fbc6b210d72cd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'bfeb6cb6008e2bae0d0e5507237693b1',
+  'native_key' => 'controlerrorlog.auto_refresh',
+  'object' => '{"key":"controlerrorlog.auto_refresh","value":true,"xtype":"combo-boolean","namespace":"controlerrorlog","area":"controlerrorlog.main","editedon":null}',
+);

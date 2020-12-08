@@ -1,0 +1,304 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 60px;
+	padding: 0;
+	*zoom: 1;
+
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &,.novelty_container.slider_v2_mod & ,.actions_container.slider_v2_mod & {
+		margin: 0 auto 90px;
+	}
+	.news_container.slider_v1_mod & {
+		flex:0 0 auto;
+		width: 75%;
+
+		@include bp($point_6) {
+			width: 100%;
+		}
+	}
+	.actions_container.slider_v1_mod &, .novelty_container.slider_v1_mod & {
+		margin: 0 auto 72px;
+	}
+	.product_market_block & {
+		margin: 0 auto 66px;
+	}
+	.actions_container.slider_v3_mod & {
+		margin:0 auto;
+	}
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+	-ms-transform: translatez(0);
+	-o-transform: translatez(0);
+	transform: translatez(0);
+
+	.novelty_container & {
+		border:1px solid $gray_7;
+	}
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &, .actions_container.slider_v1_mod &,.novelty_container.slider_v2_mod &,.actions_container.slider_v2_mod & {
+		bottom: -80px;
+	}
+	.novelty_container.slider_v1_mod & {
+		bottom:-50px;
+	}
+	.product_market_block & {
+		bottom: auto;
+		height: 6.6rem;
+		padding-top: 28px;
+		border-bottom: 1px solid $gray_7;
+	}
+	.actions_container.slider_v3_mod & {
+		bottom:60px;
+		right:40px;
+	}
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(../i/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &, .actions_container.slider_v1_mod &, .novelty_container & ,.actions_container.slider_v2_mod & {
+		text-align: left;
+	}
+	.actions_container.slider_v3_mod & {
+		text-align: right;
+		font-size: 0;
+	}
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #666;
+	text-indent: -9999px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	outline: 0;
+
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &, .actions_container.slider_v1_mod &, .product_market_block &, .novelty_container &,.actions_container.slider_v2_mod &,.actions_container.slider_v3_mod & {
+		width: 8px;
+		height: 8px;
+		margin: 0;
+		border-radius: 50%;
+		background: $gray_2;
+	}
+}
+
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item {
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &, .actions_container.slider_v1_mod &, .novelty_container &,.actions_container.slider_v2_mod &,.actions_container.slider_v3_mod & {
+		padding: 0 $gl_indent*.8;
+
+		&:first-child {
+			padding: 0 $gl_indent*.8 0 0;
+		}
+	}
+	.product_market_block & {
+		padding: 0 $gl_indent*.8;
+	}
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #000;
+
+	.news_container.slider_v1_mod &,.news_container.slider_v2_mod &, .actions_container.slider_v1_mod &, .product_market_block &, .novelty_container &,.actions_container.slider_v2_mod &,.actions_container.slider_v3_mod & {
+		background: $blue_1;
+	}
+}
+
+.bx-pager-item:first-of-type:last-of-type {
+	display: none
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: -3rem;
+	@extend %icon-arrow-left;
+	&:before{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
+
+		font-size: 4.4rem;
+		line-height: 4.4rem;
+		color: rgba(0,0,0,.15);
+		text-indent: 0;
+	}
+	&:hover{
+		&:before{
+			color: $blue_1;
+		}
+	}
+}
+
+.bx-wrapper .bx-next {
+	right: -3rem;
+	@extend %icon-arrow-right;
+	&:before{
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		text-align: center;
+
+		font-size: 4.4rem;
+		line-height: 4.4rem;
+		color: rgba(0,0,0,.15);
+		text-indent: 0;
+	}
+	&:hover{
+		&:before{
+			color: $blue_1;
+		}
+	}
+}
+
+.bx-wrapper .bx-prev:hover {
+
+}
+
+.bx-wrapper .bx-next:hover {
+
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	display: block;
+	top: 50%;
+	margin-top: -2.2rem;
+	outline: 0;
+	width: 2rem;
+	height: 4.4rem;
+	text-indent: -9999px;
+	z-index: 45;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(../i/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(../i/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666 \9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}

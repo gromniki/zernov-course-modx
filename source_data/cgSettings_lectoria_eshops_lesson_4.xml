@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data package="clientconfig" exported="2020-04-19@15:43:33" total="9">
+<cgSetting>
+	<id>1</id>
+	<key><![CDATA[le_site_address]]></key>
+	<label><![CDATA[Адрес организации]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>0</sortorder>
+	<value><![CDATA[г. Ноунейм, ул. Неизвестная, д. 5]]></value>
+	<default><![CDATA[]]></default>
+	<group>1</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>2</id>
+	<key><![CDATA[le_site_phone]]></key>
+	<label><![CDATA[Телефон]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>1</sortorder>
+	<value><![CDATA[+7(812)123-45-67]]></value>
+	<default><![CDATA[]]></default>
+	<group>1</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>3</id>
+	<key><![CDATA[le_site_email]]></key>
+	<label><![CDATA[Email, отображаемый на сайте]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>2</sortorder>
+	<value><![CDATA[info@yandex.ru]]></value>
+	<default><![CDATA[]]></default>
+	<group>1</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>4</id>
+	<key><![CDATA[le_vk]]></key>
+	<label><![CDATA[Ссылка на страницу VK]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>3</sortorder>
+	<value><![CDATA[https://vk.com]]></value>
+	<default><![CDATA[]]></default>
+	<group>2</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>5</id>
+	<key><![CDATA[le_instagram]]></key>
+	<label><![CDATA[Ссылка на страницу Instagram]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>4</sortorder>
+	<value><![CDATA[https://instagram.com/]]></value>
+	<default><![CDATA[]]></default>
+	<group>2</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>6</id>
+	<key><![CDATA[le_facebook]]></key>
+	<label><![CDATA[Ссылка на страницу Facebook]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>5</sortorder>
+	<value><![CDATA[https://fb.com]]></value>
+	<default><![CDATA[]]></default>
+	<group>2</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>7</id>
+	<key><![CDATA[le_youtube]]></key>
+	<label><![CDATA[Ссылка на страницу Youtube]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>6</sortorder>
+	<value><![CDATA[https://youtube.com]]></value>
+	<default><![CDATA[]]></default>
+	<group>2</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>8</id>
+	<key><![CDATA[ms2_email_manager]]></key>
+	<label><![CDATA[Почтовые адреса менеджеров для уведомлений о заказах]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>7</sortorder>
+	<value><![CDATA[shop@yandex.ru]]></value>
+	<default><![CDATA[]]></default>
+	<group>3</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+<cgSetting>
+	<id>9</id>
+	<key><![CDATA[le_forms_email]]></key>
+	<label><![CDATA[Email для уведомлений о заполнении форм на сайте]]></label>
+	<xtype><![CDATA[textfield]]></xtype>
+	<description><![CDATA[]]></description>
+	<is_required></is_required>
+	<sortorder>8</sortorder>
+	<value><![CDATA[forms@yandex.ru]]></value>
+	<default><![CDATA[]]></default>
+	<group>1</group>
+	<options><![CDATA[]]></options>
+	<process_options></process_options>
+	<source>0</source>
+</cgSetting>
+</data>

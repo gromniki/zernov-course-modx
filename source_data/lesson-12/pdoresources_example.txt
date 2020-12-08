@@ -1,0 +1,9 @@
+{'pdoResources' | snippet : [
+    'tpl' => 'ЧАНК ВЫВОДА ОДНОГО РЕСУРСА',
+    'parents' => 'ID РОДИТЕЛЯ',
+    'limit' => 0,
+    'includeTVs' => 'TV ДЛЯ ВКЛЮЧЕНИЯ В ВЫБОРКУ',
+    'processTVs' => 'TV ДЛЯ ОБРАБОТКИ ПОСЛЕ ВКЛЮЧЕНИЯ В ВЫБОРКУ',
+    'tvPrefix' => '',
+    'sortby' => '{"menuindex":"ASC"}'
+]}

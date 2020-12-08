@@ -1,0 +1,114 @@
+%blue_title_1 {
+	font-family:$proxima_extra_b;
+	font-size: 4.6rem;
+	text-transform: uppercase;
+	color:$blue_4;
+}
+
+%black_title_1 {
+	display: block;
+	padding:0 0 $gl_indent*2 0;
+	font-family:$proxima_b;
+	font-size: 3.8rem;
+	color:$dark_3;
+	@include bp($point_2){
+		font-size: 3rem;
+	}
+	@include bp($point_3){
+		font-size: 2.5rem;
+	}
+}
+
+%black_title_2 {
+	display: block;
+	font-family:$proxima_b;
+	font-size: 2rem;
+	color:$dark_2;
+}
+%white_title_1 {
+	display: block;
+	font-family:$proxima_b;
+	font-size: 2rem;
+	color:$white;
+}
+%date {
+	color:$white;
+	display: inline-block;
+	height: 2.6rem;
+	padding:0 $gl_indent*1.2;
+	font-size: 1.3rem;
+	background: $dark_3;
+	border-radius:.5rem;
+	line-height: 2.6rem;
+}
+
+//---------------------------------------------shadows
+%shadow_1 {
+	box-shadow: 0 0 28px rgba(0,0,0,.15);
+}
+%shadow_2 {
+	box-shadow: 2px 3px 6px rgba(0,0,0,.09);
+
+}
+//---------------------------------------------shadows###
+
+%tooltip_1 {
+	@extend %shadow_2;
+
+	position: relative;
+	width: 25rem;
+	padding:$gl_indent*2;
+	font-size: 1.4rem;
+	color:$dark_4;
+	background: $light_gray_4;
+	border-radius: .5rem;
+
+	span {
+		display: block;
+	}
+
+	&:before {
+		@extend %shadow_2;
+
+		content: '';
+		z-index: 5;
+		position: absolute;
+		top: 1rem;
+		right: 100%;
+		margin-right:-2.4rem;
+		transform:skewY(-14deg);
+		clip:rect(0,2.4rem,6rem,0);
+
+		@include triangle(top,$light_gray_4,2.4rem);
+	}
+}
+%tooltip_2 {
+	@extend %shadow_2;
+
+	position: relative;
+	width: 25rem;
+	padding:$gl_indent*2;
+	font-size: 1.6rem;
+	color:$gray_2;
+	background: $white;
+	border-radius: .5rem;
+
+	span {
+		display: block;
+	}
+
+	&:before {
+		@extend %shadow_2;
+
+		content: '';
+		z-index: 5;
+		position: absolute;
+		top: 1rem;
+		right: 100%;
+		margin-right:-2.4rem;
+		transform:skewY(-14deg);
+		clip:rect(0,2.4rem,6rem,0);
+
+		@include triangle(top,$white,2.4rem);
+	}
+}

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'controlerrorlog',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b0bd6fe23a00918578f481e0c012cdcf',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4dece5eeb5d53add4bc9f8a39647de2a',
+  'native_key' => 'controlerrorlog.js_file',
+  'object' => '{"key":"controlerrorlog.js_file","value":"\\/assets\\/components\\/controlerrorlog\\/js\\/web\\/default.js","xtype":"textfield","namespace":"controlerrorlog","area":"controlerrorlog.main","editedon":null}',
+);

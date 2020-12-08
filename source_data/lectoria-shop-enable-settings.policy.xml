@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy>
+    <template>
+        <name>LectoriaShop</name>
+        <description>Шаблон для личного кабинета покупателя</description>
+        <lexicon>permissions</lexicon>
+        <template_group>Admin</template_group>
+        <permissions>
+            <permission>
+                <name>edit_user_settings</name>
+                <description>Разрешено редактировать свои настройки</description>
+                <value>1</value>
+            </permission>
+        </permissions>
+    </template>
+    <name>Lectoria Shop Enable Settings</name>
+    <description>Политика разрешает редактировать настройки покупателю</description>
+    <class></class>
+    <permissions>
+        <permission>
+            <name>edit_user_settings</name>
+            <value>1</value>
+        </permission>
+    </permissions>
+</policy>

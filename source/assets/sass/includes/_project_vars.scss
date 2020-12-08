@@ -1,0 +1,103 @@
+//---------------------------------------------------------------------fonts
+
+$font_path: '../fonts/';
+
+$proxima_black:'ProximaNova-Black',sans-serif;
+$proxima_b:'ProximaNova-Bold',sans-serif;
+$proxima_semi_b:'ProximaNova-Semibold',sans-serif;
+$proxima_extra_b:'ProximaNova-Extrabld',sans-serif;
+$proxima_reg:'ProximaNova-Regular',sans-serif;
+$play_it: 'Playfair Display', serif;;
+
+$font_1: $proxima_reg;
+
+//---------------------------------------------------------------------colors
+$white: #fff;
+$black: #000;
+$dark_1:#373737;
+$dark_2:#231f20;
+$dark_3:#231f20;
+$dark_4:#474445;
+$dark_5:#302c2d;
+
+$gray_1:#d6d6d6;
+$gray_2:#7d99ac;
+$gray_3:#91a0b3;
+$gray_4:#617685;
+$gray_5:#425d6e;
+$gray_6:#767a86;
+$gray_7:#e5ebee;
+$gray_8:#666464;
+$gray_9:#c0c0c0;
+$gray_10:#d6dbdf;
+$gray_11:#d9d9d9;
+$gray_12:#c6d1d9;
+$gray_13:#d0dbe1;
+
+$light_gray_1:#dae0e8;
+$light_gray_2:#f1f1f1;
+$light_gray_3:#dbe0e8;
+$light_gray_4:#f7f7f7;
+$light_gray_5:#f1f2f3;
+$light_gray_6:#dae0e8;
+
+$brown_1:#bcb081;
+$brown_2:#838383;
+$yellow_1:#f5d525;
+$yellow_2:#ffae00;
+
+$red_1: #ff3d0a;
+
+$blue_1:#00a7df;
+$blue_2:#36a0d9;
+$blue_3:#4fb0ea;
+$blue_4:#1bb1e3;
+$light_blue_5:#d4ebf7;
+
+$dark_blue_1:#253149;
+
+$purple_1:#2e3953;
+$purple_2:#6a7591;
+
+$def_text_color: #7e8287;
+$placeholder_color: #000;
+$body_bg: #fff;
+//---------------------------------------------------------------------colors
+//---------------------------------------------z-index
+$z-index: (
+	popap : 9999,
+	header : 100,
+	header_menu:50,
+	footer : 100
+);
+//---------------------------------------------z-index###
+//------------------------------------------------------------layout
+$footer_height_1: 42rem;
+$footer_height_2:22.6rem;
+$header_height: 8.8rem;
+
+$page_width: 96rem;
+
+$gl_indent: 1rem;
+$gl_hor_indent:$gl_indent*3;
+$gl_hor_mobile_indent:$gl_indent*1.8;
+//------------------------------------------------------------layout###
+//----------------------------------------------------------------other stuff
+$base_font_size: 1.6rem;
+$bdrs_gl:2.6rem;
+$e_f_field_v1_h: 2rem;
+$e_f_field_v2_h: 2rem;
+$e_f_field_v3_h: 2rem;
+$br_global: 1rem;
+$point_0: 1540px;
+$point_1: 1500px;
+$point_1_1: 1440px;
+$point_1_2: 1380px;
+$point_1_3: 1290px;
+$point_2: 1024px;
+$point_3: 768px;
+$point_4: 480px;
+$point_5: 320px;
+$point_6:1200px;
+$point_7:1400px;
+//----------------------------------------------------------------other stuff
