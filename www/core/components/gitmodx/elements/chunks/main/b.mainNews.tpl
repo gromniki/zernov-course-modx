@@ -5,14 +5,19 @@
             <span class="all_news_butt_in slider_v1_mod">Все новости</span></a>
     </div>
     <ul id="news_slider_1" class="news_container_list slider_v1_mod">
-        {'pdoResources' | snippet : [
-            'tpl' => 'e.mainNewsItem',
-            'parents' => $_modx->config.le_news_page_id,
-            'limit' => 10,
-            'includeTVs' => '',
-            'processTVs' => '',
-            'tvPrefix' => '',
-            'sortby' => '{"publishedon":"DESC"}',
-        ]}
+        <li class="news_container_item slider_v1_mod">
+            <ul class="news_list slider_v1_mod">
+                {'pdoResources' | snippet : [
+                    'tpl' => 'e.mainNewsItem',
+                    'parents' => $_modx->config.le_news_page_id,
+                    'limit' => 10,
+                    'includeTVs' => '',
+                    'processTVs' => '',
+                    'tvPrefix' => '',
+                    'sortby' => '{"publishedon":"DESC"}',
+                ]}
+            </ul>
+        </li>
     </ul>
 </div>
+

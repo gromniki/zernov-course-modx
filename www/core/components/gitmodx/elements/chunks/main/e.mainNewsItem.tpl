@@ -1,3 +1,9 @@
+{if $idx % 3 == 1 && $idx > 3}
+        </ul>
+    </li>
+    <li class="news_item slider_v1_mod">
+        <ul class="news_list  slider_v1_mod">
+{/if}
 <li class="news_container_item slider_v1_mod">
     <ul class="news_list slider_v1_mod">
         <li class="news_item slider_v1_mod">
