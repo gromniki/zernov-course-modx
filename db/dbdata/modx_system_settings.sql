@@ -95,7 +95,7 @@ REPLACE INTO `modx_system_settings` VALUES ('friendly_urls_strict','0','combo-bo
 REPLACE INTO `modx_system_settings` VALUES ('global_duplicate_uri_check','0','combo-boolean','core','furls','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('hidemenu_default','0','combo-boolean','core','site','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('inline_help','1','combo-boolean','core','manager','0000-00-00 00:00:00');
-REPLACE INTO `modx_system_settings` VALUES ('locale','','textfield','core','language','0000-00-00 00:00:00');
+REPLACE INTO `modx_system_settings` VALUES ('locale','english','textfield','core','language','2020-12-18 14:42:05');
 REPLACE INTO `modx_system_settings` VALUES ('log_level','1','textfield','core','system','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('log_target','FILE','textfield','core','system','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('link_tag_scheme','-1','textfield','core','site','0000-00-00 00:00:00');

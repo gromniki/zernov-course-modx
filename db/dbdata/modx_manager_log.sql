@@ -337,6 +337,12 @@ REPLACE INTO `modx_manager_log` VALUES (325,1,'2020-12-08 10:03:31','file_create
 REPLACE INTO `modx_manager_log` VALUES (326,1,'2020-12-08 10:03:31','directory_create','','C:/Server/domains/zernov-course-modx/www/assets/images/resources/19/medium/');
 REPLACE INTO `modx_manager_log` VALUES (327,1,'2020-12-08 10:03:31','file_create','','C:/Server/domains/zernov-course-modx/www/assets/images/resources/19/medium/action-i-2.jpg');
 REPLACE INTO `modx_manager_log` VALUES (328,1,'2020-12-08 10:03:35','resource_update','modResource','19');
+REPLACE INTO `modx_manager_log` VALUES (329,1,'2020-12-18 12:09:09','package_uninstall','transport.modTransportPackage','unknown');
+REPLACE INTO `modx_manager_log` VALUES (330,1,'2020-12-18 12:09:34','clear_cache','','mgr');
+REPLACE INTO `modx_manager_log` VALUES (331,4,'2020-12-18 14:08:07','login','modContext','mgr');
+REPLACE INTO `modx_manager_log` VALUES (332,1,'2020-12-18 14:09:06','login','modContext','mgr');
+REPLACE INTO `modx_manager_log` VALUES (333,1,'2020-12-18 14:42:06','setting_update','modSystemSetting','locale');
+REPLACE INTO `modx_manager_log` VALUES (334,1,'2020-12-18 14:42:32','clear_cache','','mgr');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

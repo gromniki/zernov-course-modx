@@ -63,26 +63,9 @@ class SystemFileEditManagerController extends modManagerController {
         $this->filename = htmlspecialchars(strip_tags($this->filename));
 
         $source = $this->getSource();
-        if (!$source || !$source->initialize()) {
-            return $this->failure($this->modx->lexicon('permission_denied'));
-        }
-
-        //$this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord, true));
-
 
         $this->fileRecord = $source->getObjectContents($this->filename);
-
-        //$this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord, true));
-        //$this->fileRecord = $source->getObjectContents($this->filename);
         $this->fileRecord['source'] = $source->get('id');
-
-        //var_dump($this->fileRecord);
-        //var_dump($this->modx->toJSON($this->fileRecord));
-
-        $this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord['source'], true));
-        $this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord['name'], true));
-        $this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord['basename'], true));
-        $this->modx->log(MODX_LOG_LEVEL_ERROR, print_r($this->fileRecord['path'], true));
 
         if (empty($this->fileRecord)) {
             $errors = $source->getErrors();

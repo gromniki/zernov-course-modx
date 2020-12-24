@@ -8,24 +8,8 @@
 <div class="wrapper footer_v1_mod">
     <div class="base footer_v1_mod">
         <div class="page_head_block v2_mod tablet_1_mod">
-            <h2 class="page_head_title white_mod">О компании</h2>
-            <nav itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList"
-                 class="breadcrumbs_wrap bg_mod">
-                <meta itemprop="name" content="Breadcrumb"/>
-                <meta itemprop="description" content="Navigation path"/>
-                <ul itemprop="itemListElement" class="breadcrumbs_list bg_mod">
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"
-                        class="breadcrumbs_l_item  bg_mod">
-                        <a href="assets/index.html" title="Главная" class="breadcrumbs_link bg_mod">
-                            <span class="breadcrumbs_text bg_mod">Главная</span>
-                        </a>
-                    </li>
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"
-                        class="breadcrumbs_l_item  bg_mod">
-                        <span class="breadcrumbs_text  bg_mod">О компании</span>
-                    </li>
-                </ul>
-            </nav>
+            <h2 class="page_head_title white_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h2>
+            {include 'b.breadCrumbs'}
         </div>
         <nav class="page_sub_menu">
             <ul class="page_sub_menu_list">
