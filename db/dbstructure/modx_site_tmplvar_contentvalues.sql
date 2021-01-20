@@ -14,7 +14,7 @@ CREATE TABLE `modx_site_tmplvar_contentvalues` (
   KEY `tmplvarid` (`tmplvarid`),
   KEY `contentid` (`contentid`),
   KEY `tv_cnt` (`tmplvarid`,`contentid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -22,6 +22,7 @@ REPLACE INTO `modx_namespaces` VALUES ('minishop2','{core_path}components/minish
 REPLACE INTO `modx_namespaces` VALUES ('controlerrorlog','{core_path}components/controlerrorlog/','');
 REPLACE INTO `modx_namespaces` VALUES ('collections','{core_path}components/collections/','{assets_path}components/collections/');
 REPLACE INTO `modx_namespaces` VALUES ('ms2gallery','{core_path}components/ms2gallery/','');
+REPLACE INTO `modx_namespaces` VALUES ('migx','{core_path}components/migx/','{assets_path}components/migx/');
 /*!40000 ALTER TABLE `modx_namespaces` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

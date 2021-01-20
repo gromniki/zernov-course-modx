@@ -27,6 +27,12 @@ REPLACE INTO `modx_categories_closure` VALUES (20,20,0);
 REPLACE INTO `modx_categories_closure` VALUES (0,20,0);
 REPLACE INTO `modx_categories_closure` VALUES (21,21,0);
 REPLACE INTO `modx_categories_closure` VALUES (0,21,0);
+REPLACE INTO `modx_categories_closure` VALUES (22,22,0);
+REPLACE INTO `modx_categories_closure` VALUES (0,22,0);
+REPLACE INTO `modx_categories_closure` VALUES (23,23,0);
+REPLACE INTO `modx_categories_closure` VALUES (0,23,0);
+REPLACE INTO `modx_categories_closure` VALUES (24,24,0);
+REPLACE INTO `modx_categories_closure` VALUES (0,24,0);
 /*!40000 ALTER TABLE `modx_categories_closure` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

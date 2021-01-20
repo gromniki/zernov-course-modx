@@ -18,6 +18,9 @@ REPLACE INTO `modx_categories` VALUES (18,0,'miniShop2',0);
 REPLACE INTO `modx_categories` VALUES (19,0,'controlErrorLog',0);
 REPLACE INTO `modx_categories` VALUES (20,0,'Collections',0);
 REPLACE INTO `modx_categories` VALUES (21,0,'ms2Gallery',0);
+REPLACE INTO `modx_categories` VALUES (22,0,'Text Page',0);
+REPLACE INTO `modx_categories` VALUES (23,0,'MIGX',0);
+REPLACE INTO `modx_categories` VALUES (24,0,'Файлы',0);
 /*!40000 ALTER TABLE `modx_categories` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

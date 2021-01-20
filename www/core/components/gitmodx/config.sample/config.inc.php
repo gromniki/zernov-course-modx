@@ -1,7 +1,7 @@
 <?php
-$gitModxConfig = array(
-    'site_name' => 'MODx StartKit',
+$gitModxConfig = [
+    'site_name' => 'MODx StartKits',
     'emailsender' => 'noreply@localhost',
-);
+];
 
 return $gitModxConfig;

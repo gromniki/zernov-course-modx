@@ -9,7 +9,8 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_register_messages` DISABLE KEYS */;
-REPLACE INTO `modx_register_messages` VALUES (3,'e4bce4561a23feafc085638667e128ad','2020-12-20 18:53:37','2020-12-20 18:53:37',NULL,0,1608566017,'if (time() > 1608566017) return null;\nreturn true;\n',0);
+REPLACE INTO `modx_register_messages` VALUES (3,'e4bce4561a23feafc085638667e128ad','2021-01-20 13:13:10','2021-01-20 13:13:10',NULL,0,1611223990,'if (time() > 1611223990) return null;\nreturn true;\n',0);
+REPLACE INTO `modx_register_messages` VALUES (1,'c81e728d9d4c2f636f067f89cc14862c','2021-01-20 19:11:36','2021-01-20 19:11:36',NULL,0,1611159456,'if (time() > 1611159456) return null;\nreturn 1;\n',0);
 /*!40000 ALTER TABLE `modx_register_messages` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

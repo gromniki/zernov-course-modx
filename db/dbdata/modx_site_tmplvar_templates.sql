@@ -9,6 +9,8 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` DISABLE KEYS */;
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (1,3,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (2,3,0);
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

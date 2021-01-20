@@ -87,6 +87,7 @@ REPLACE INTO `modx_actions` VALUES (75,'core','workspaces/namespace',1,'workspac
 REPLACE INTO `modx_actions` VALUES (76,'core','security/profile',1,'user','','');
 REPLACE INTO `modx_actions` VALUES (77,'core','security/message',1,'messages','','');
 REPLACE INTO `modx_actions` VALUES (85,'formit','index',1,'formit:mgr','','');
+REPLACE INTO `modx_actions` VALUES (87,'migx','index',0,'example:default','','');
 /*!40000 ALTER TABLE `modx_actions` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

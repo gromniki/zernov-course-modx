@@ -49,6 +49,11 @@ REPLACE INTO `modx_site_plugin_events` VALUES (20,'OnLoadWebDocument',0,0);
 REPLACE INTO `modx_site_plugin_events` VALUES (20,'OnBeforeDocFormSave',0,0);
 REPLACE INTO `modx_site_plugin_events` VALUES (20,'OnBeforeEmptyTrash',0,0);
 REPLACE INTO `modx_site_plugin_events` VALUES (21,'OnRichTextEditorRegister',0,0);
+REPLACE INTO `modx_site_plugin_events` VALUES (22,'OnDocFormPrerender',0,0);
+REPLACE INTO `modx_site_plugin_events` VALUES (22,'OnTVInputPropertiesList',0,0);
+REPLACE INTO `modx_site_plugin_events` VALUES (22,'OnTVInputRenderList',1,0);
+REPLACE INTO `modx_site_plugin_events` VALUES (23,'OnDocFormPrerender',0,0);
+REPLACE INTO `modx_site_plugin_events` VALUES (24,'OnFileManagerUpload',0,0);
 /*!40000 ALTER TABLE `modx_site_plugin_events` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

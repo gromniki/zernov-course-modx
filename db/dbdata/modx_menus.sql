@@ -70,6 +70,7 @@ REPLACE INTO `modx_menus` VALUES ('minishop2','components','mgr/orders','ms2_men
 REPLACE INTO `modx_menus` VALUES ('ms2_orders','minishop2','mgr/orders','ms2_orders_desc','',0,'','','msorder_view','minishop2');
 REPLACE INTO `modx_menus` VALUES ('ms2_settings','minishop2','mgr/settings','ms2_settings_desc','',1,'','','mssetting_view','minishop2');
 REPLACE INTO `modx_menus` VALUES ('collections.menu.collection_templates','components','home','collections.menu.collection_templates_desc','',0,'','','','collections');
+REPLACE INTO `modx_menus` VALUES ('migx','components','index','','',0,'&configs=packagemanager||migxconfigs||setup','','','migx');
 /*!40000 ALTER TABLE `modx_menus` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

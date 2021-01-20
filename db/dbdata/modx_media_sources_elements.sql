@@ -9,6 +9,8 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_media_sources_elements` DISABLE KEYS */;
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',1,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',2,'web');
 /*!40000 ALTER TABLE `modx_media_sources_elements` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
