@@ -27,9 +27,8 @@
             'hereClass' => 'active_mod'
         ]}
 
-
         <div class="about_block v1_mod">
-            <h2 class="about_block_title v1_mod">Подзаголовок</h2>
+            <h2 class="about_block_title v1_mod">[[*textPageSubtitle]]</h2>
             <div class="about_block_i_w v1_mod">
                 {'ms2Gallery' | snippet : [
                     'frontend_css' => '',
@@ -42,9 +41,7 @@
                 ]}
             </div>
             <div class="about_info_w v1_mod">
-                <div class="about_info_text v1_mod">
-                    [[*content]]
-                </div>
+                <div class="about_info_text v1_mod">[[*content]]</div>
                 <ul class="companies_list v1_mod">
                     {var $files = $_modx->resource.fileList | json_decode}
                     {if ($files | iterable) && ($files | count > 0)}

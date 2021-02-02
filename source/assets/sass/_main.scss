@@ -1520,7 +1520,7 @@
 		width: 100%;
 		padding: 0 $gl_indent*6 0 0;
 
-		@include bp($point_1) {
+		@include bp($point_1_3) {
 			padding: 0;
 		}
 	}
@@ -1532,7 +1532,11 @@
 		width: 57rem;
 		padding: $gl_indent*15 0 $gl_indent*5;
 
-		@include bp($point_1) {
+        @include bp($point_1) {
+            width: 47rem;
+        }
+
+		@include bp($point_1_3) {
 			width: 100%;
 			padding:0 0 $gl_indent*3;
 		}

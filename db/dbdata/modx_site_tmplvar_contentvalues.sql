@@ -9,7 +9,8 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_site_tmplvar_contentvalues` DISABLE KEYS */;
-REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (1,2,2,'[{\"MIGX_id\":\"1\",\"title\":\"Zheyung Tii Xi\",\"link\":\"https://www.zheyung.com\",\"file\":\"documents/head_i_1.jpg\"}]');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (1,2,2,'[{\"MIGX_id\":\"1\",\"title\":\"Zheyung Tii Xi\",\"link\":\"https:\\/\\/www.zheyung.com\",\"file\":\"documents\\/head_i_1.jpg\"}]');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (2,1,2,'Это подзаголовок из админки');
 /*!40000 ALTER TABLE `modx_site_tmplvar_contentvalues` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

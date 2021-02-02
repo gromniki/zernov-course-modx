@@ -16,7 +16,7 @@ CREATE TABLE `modx_media_sources` (
   KEY `name` (`name`),
   KEY `class_key` (`class_key`),
   KEY `is_stream` (`is_stream`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

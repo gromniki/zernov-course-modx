@@ -1,6 +1,6 @@
 <meta charset="UTF-8"/>
 <base href="{'site_url' | option}">
-<title>Title of the page</title>
+<title>[[*pagetitle]] | [[++site_name]]</title>
 <meta name="viewport" content="width=device-width"/>
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" media="all" href="assets/styles/main_global.css"/>
