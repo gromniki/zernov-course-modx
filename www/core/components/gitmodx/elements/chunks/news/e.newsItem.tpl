@@ -1,5 +1,4 @@
-<li class="news_item all_mod bg_3_mod"
-    style="background: url('{$preview}') top right no-repeat;">
+<li class="news_item all_mod bg_3_mod" {if $preview}style="background: url('{$preview}') top right no-repeat;"{/if}>
     <div class="news_block all_mod">
         <div class="news_date all_mod">{$publishedon | humanDate: '{day} {monthName} {year}'}</div>
         <div class="news_title all_mod">{$pagetitle}</div>
