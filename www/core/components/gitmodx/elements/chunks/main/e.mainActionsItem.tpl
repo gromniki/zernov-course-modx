@@ -1,3 +1,9 @@
+{if $idx % 2 == 1 && $idx > 2}
+    </ul>
+        </li>
+    <li class="actions_container_item v1_mod">
+        <ul class="actions_list v1_mod">
+{/if}
 <li class="actions_item v1_mod">
     <a href="{$uri}" class="actions_block v1_mod" {if $medium}style="background: url('{$medium}') center no-repeat; background-size: cover;"{/if}>
         <div class="actions_block_content v1_mod">

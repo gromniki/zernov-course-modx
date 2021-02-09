@@ -529,6 +529,7 @@ REPLACE INTO `modx_manager_log` VALUES (517,1,'2021-02-04 21:30:41','file_create
 REPLACE INTO `modx_manager_log` VALUES (518,1,'2021-02-04 21:30:42','directory_create','','C:/Server/domains/zernov-course-modx/www/assets/images/resources/33/page_image/');
 REPLACE INTO `modx_manager_log` VALUES (519,1,'2021-02-04 21:30:42','file_create','','C:/Server/domains/zernov-course-modx/www/assets/images/resources/33/page_image/natgeo08.jpg');
 REPLACE INTO `modx_manager_log` VALUES (520,1,'2021-02-04 21:30:43','resource_update','modResource','33');
+REPLACE INTO `modx_manager_log` VALUES (521,1,'2021-02-09 11:36:31','source_update','sources.modMediaSource','8');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
