@@ -14,22 +14,20 @@
                 }
                 <h2 class="page_head_title black_mod offset_1_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h2>
             </div>
-            <div class="text_page_i_w"><img alt="" src="assets/i/skyscrapers_2.jpg" class="text_page_i"></div>
+            {'ms2Gallery' | snippet : [
+                'frontend_css' => '',
+                'frontend_js' => '',
+                'limit' => 1,
+                'parents' => 0,
+                'resources' => $_modx->resource.id,
+                'tpl' => '@INLINE {foreach $files as $file}<div class="text_page_i_w"><img src="{$file.page_image}" class="text_page_i" alt="{$file.alt | htmlent}"></div>{/foreach}'
+            ]}
             <div class="text_page_text_w">
                 <div class="text_page_text">
-                    <p class="big">Наша компания готова предложить широкий спектр электрооборудования собственного
-                        производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные
-                        системы.</p>
-                    <p class="small">Наша компания готова предложить широкий спектр электрооборудования собственного
-                        производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные
-                        системы.</p>
-                    <p class="small">Наша компания готова предложить широкий спектр электрооборудования собственного
-                        производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные
-                        системы.Наша компания готова предложить широкий спектр электрооборудования собственного
-                        производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные
-                        системы.Наша компания готова предложить широкий спектр электрооборудования собственного
-                        производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные
-                        системы.</p>
+                    {if $_modx->resource.introtext}
+                        <p class="big">[[*introtext]]</p>
+                    {/if}
+                    [[*content]]
                 </div>
                 <ul class="text_page_link_list">
                     <li class="text_page_link_item"><a href="#" class="text_page_link">•<span>Сертификаты</span></a>
@@ -42,75 +40,17 @@
         </div>
         <aside class="page_aside_block v1_mod">
             <ul class="aside_sections_list">
-                <li class="aside_sections_item">
-                    <div class="news_container slider_v2_mod">
-                        <div class="news_caption_block slider_v2_mod">
-                            <h2 class="section_title v3_mod">Новости LECTSHOP</h2>
-                            <a href="novosti/index.html" class="all_news_butt slider_v2_mod">
-                                <span class="all_news_butt_in slider_v2_mod">Все новости</span>
-                            </a>
-                        </div>
-                        <ul id="news_slider_1" class="news_container_list slider_v1_mod">
-                            <li class="news_item slider_v2_mod">
-                                <div class="news_block slider_v2_mod">
-                                    <div class="news_date slider_v2_mod">11 марта 2016</div>
-                                    <div class="news_title slider_v2_mod">
-                                        Четвертая новость на нашем сайте
-                                    </div>
-                                    <div class="news_text slider_v2_mod">
-                                        Вот и появилась еще одна новость на нашем сайте!
-                                    </div>
-                                    <a href="novosti/2016-03-11-chetvertaya-novost-na-nashem-sayte.html" class="news_more_butt slider_v2_mod">
-                                        <span class="news_more_butt_in slider_v2_mod">Подробнее</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="news_item slider_v2_mod">
-                                <div class="news_block slider_v2_mod">
-                                    <div class="news_date slider_v2_mod">16 ноября 2020</div>
-                                    <div class="news_title slider_v2_mod">
-                                        Новость для сайта
-                                    </div>
-                                    <div class="news_text slider_v2_mod">
-                                        И вот она третья новость на сайте
-                                    </div>
-                                    <a href="novosti/2015-11-16-novost-dlya-sayta.html" class="news_more_butt slider_v2_mod">
-                                        <span class="news_more_butt_in slider_v2_mod">Подробнее</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="news_item slider_v2_mod">
-                                <div class="news_block slider_v2_mod">
-                                    <div class="news_date slider_v2_mod">16 ноября 2020</div>
-                                    <div class="news_title slider_v2_mod">
-                                        Еще одна новость
-                                    </div>
-                                    <div class="news_text slider_v2_mod">
-                                        На сайте добавлена еще одна новость. Будем размещать дальше.
-                                    </div>
-                                    <a href="novosti/2015-11-16-esche-odna-novost.html" class="news_more_butt slider_v2_mod">
-                                        <span class="news_more_butt_in slider_v2_mod">Подробнее</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="news_item slider_v2_mod">
-                                <div class="news_block slider_v2_mod">
-                                    <div class="news_date slider_v2_mod">16 ноября 2020</div>
-                                    <div class="news_title slider_v2_mod">
-                                        Система мониторинга ГЭС
-                                    </div>
-                                    <div class="news_text slider_v2_mod">
-                                        Компания LECTSHOP установила систему мониторинга силовых трансформаторов на
-                                        Токтогульской ГЭС.
-                                    </div>
-                                    <a href="novosti/2015-11-16-sistema-monitoringa-ges.html" class="news_more_butt slider_v2_mod">
-                                        <span class="news_more_butt_in slider_v2_mod">Подробнее</span>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
+                {'pdoResources' | snippet : [
+                    'tplWrapper' => 'b.asideNews',
+                    'tpl' => 'e.asideNewsItem',
+                    'parents' => $_modx->config.le_news_page_id,
+                    'limit' => 10,
+                    'includeTVs' => '',
+                    'processTVs' => '',
+                    'tvPrefix' => '',
+                    'sortby' => '{"publishedon":"DESC"}',
+                ]}
+
                 <li class="aside_sections_item">
                     <div class="novelty_container slider_v2_mod">
                         <h2 class="section_title v3_mod">Новинки</h2>
@@ -253,6 +193,19 @@
                         </a>
                     </div>
                 </li>
+
+                {'ms2GalleryResources' | snippet : [
+                    'includeThumbs' => 'medium',
+                    'tplWrapper' => 'b.asideActions',
+                    'tpl' => 'e.asideActionsItem',
+                    'parents' => $_modx->config.le_actions_page_id,
+                    'limit' => 10,
+                    'includeTVs' => '',
+                    'processTVs' => '',
+                    'tvPrefix' => '',
+                    'sortby' => '{"publishedon":"DESC"}',
+                ]}
+
                 <li class="aside_sections_item">
                     <div class="actions_container slider_v2_mod">
                         <h2 class="section_title v3_mod">Акции</h2>
