@@ -29,13 +29,16 @@
                     {/if}
                     [[*content]]
                 </div>
-                <ul class="text_page_link_list">
-                    <li class="text_page_link_item"><a href="#" class="text_page_link">•<span>Сертификаты</span></a>
-                    </li>
-                    <li class="text_page_link_item"><a href="#" class="text_page_link">•<span>Наши поставщики</span></a>
-                    </li>
-                    <li class="text_page_link_item"><a href="#" class="text_page_link">•<span>Еще ссылка</span></a></li>
-                </ul>
+
+                {if $_modx->resource.parent != $_modx->config.le_actions_page_id}
+                    {'pdoMenu' | snippet : [
+                        'parents' => $_modx->resource.parent,
+                        'level' => 1,
+                        'tplOuter' => '@INLINE <ul class="text_page_link_list">{$wrapper}</ul>',
+                        'tpl' => '@INLINE <li class="text_page_link_item {$classnames}"><a href="{$link}" class="text_page_link {$classnames}">•<span>{$menutitle}</span></a></li>',
+                        'hereClass' => 'active_mod'
+                    ]}
+                {/if}
             </div>
         </div>
         <aside class="page_aside_block v1_mod">
@@ -51,6 +54,7 @@
                     'sortby' => '{"publishedon":"DESC"}',
                 ]}
 
+                {* TODO сделать блок с новинками *}
                 <li class="aside_sections_item">
                     <div class="novelty_container slider_v2_mod">
                         <h2 class="section_title v3_mod">Новинки</h2>
@@ -205,43 +209,6 @@
                     'tvPrefix' => '',
                     'sortby' => '{"publishedon":"DESC"}',
                 ]}
-
-                <li class="aside_sections_item">
-                    <div class="actions_container slider_v2_mod">
-                        <h2 class="section_title v3_mod">Акции</h2>
-                        <ul id="actions_slider_1" class="actions_container_list v1_mod">
-                            <li class="actions_container_item v1_mod">
-                                <a href="aktsii/uletnye-tovary-po-uletnym-tsenam.html" class="actions_block v1_mod" style="background: url('assets/images_example/resources/47/777x380/zalevskij75-13.jpg') center no-repeat; background-size: cover;">
-
-
-                                    <div class="actions_block_content v1_mod">
-                                        <div class="actions_date v1_mod">25 ноября 2020</div>
-                                        <div class="actions_title v1_mod">Улетные товары по улетным ценам</div>
-                                        <div class="actions_def v1_mod">
-                                            До 5 декабря скидка 30% на модульное оборудование LectShop
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="actions_container_item v1_mod">
-                                <a href="aktsii/besplatnaya-dostavka-v-yanvare.html" class="actions_block v1_mod" style="background: url('assets/images_example/resources/48/777x380/natgeo03.jpg') center no-repeat; background-size: cover;">
-
-
-                                    <div class="actions_block_content v1_mod">
-                                        <div class="actions_date v1_mod">25 ноября 2020</div>
-                                        <div class="actions_title v1_mod">Бесплатная доставка в январе</div>
-                                        <div class="actions_def v1_mod">
-                                            С 10го по 31-е января у нас бесплатная доставка любых заказов!
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="aktsii/index.html" class="all_actions_butt slider_v2_mod">
-                            <span class="all_actions_butt_in slider_v2_mod">Все акции</span>
-                        </a>
-                    </div>
-                </li>
             </ul>
         </aside>
     </div>
