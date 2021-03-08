@@ -2,18 +2,20 @@
 <html lang="ru">
 <head>
   {include 'b.head'}
-
 </head>
 <body>
 {include 'b.header'}
 <div class="wrapper footer_v1_mod">
     <div class="base footer_v1_mod">
-        <div class="page_head_block v1_mod nku_mod">
-            <h1 class="page_head_title white_mod">Для производителей НКУ</h1>
-            <div class="page_head_def">
-                Вводный текст для плашки на главной для производителей НКУ
-            </div>
-        </div>
+        {include 'b.pageTitleWithBg'}
+
+        {'pdoCrumbs' | snippet : [
+            'tplWrapper' => 'ЧАНК ОБЕРТКИ',
+            'tpl' => 'ЧАНК ЭЛЕМЕНТА',
+            'tplCurrent' => 'ЧАНК ТЕКУЩЕГО ЭЛЕМЕНТА',
+            'tplHome' => 'ЧАНК ПЕРВОГО ЭЛЕМЕНТА',
+            'showHome' => '1',
+        ]}
         <nav itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs_wrap no_bg_mod bottom_mod gray_bg_mod">
             <meta itemprop="name" content="Breadcrumb"/>
             <meta itemprop="description" content="Navigation path"/>
@@ -390,34 +392,6 @@
     </div>
 </div>
 {include 'b.footer'}
-<div class="modal" id="popup_search_form">
-    <a href="assets/index.html#popup_search_form" class="modal_bg" data-toggle="modal">
-    </a>
-    <a href="assets/index.html#popup_search_form" class="modal_close active_mod" data-toggle="modal">
-    </a>
-    <div class="modal_content">
-        <div class="modal_title mod_big">Поиск товаров</div>
-        <form class="" method="get" action="/rezultaty-poiska.html">
-            <dl class="form_cell form_cell_v2_mod">
-                <dt class="form_c_hline form_v2_mod hline_hide_mod">
-                    <label for="search_catalog">Введите наименование товара</label>
-                </dt>
-                <dd class="form_c_f_w form_v2_mod hline_hide_mod">
-                    <button type="submit" class="input_link search_mod">Искать</button>
-                    <input type="hidden" name="parent" value="5">
-                    <input type="text" name="term" id="search_catalog" placeholder="Введите наименование товара" class="f_c_field second_mod search_mod" value=""/>
-                </dd>
-            </dl>
-        </form>
-    </div>
-</div>
-<div class="global_notification_container">
-    <div class="gn_bg"></div>
-    <div class="gn_hold">
-        <div class="gn_message"></div>
-        <a href="assets/index.html#" class="gn_close">закрыть</a>
-    </div>
-</div>
 {include 'b.footerScripts'}
 <div id="video-container">
     <a href="javascript: void(0);" class="video_close active_mod"></a>

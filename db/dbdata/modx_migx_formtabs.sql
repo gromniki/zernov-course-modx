@@ -10,6 +10,8 @@
 
 /*!40000 ALTER TABLE `modx_migx_formtabs` DISABLE KEYS */;
 REPLACE INTO `modx_migx_formtabs` VALUES (1,1,'',1,0,'');
+REPLACE INTO `modx_migx_formtabs` VALUES (2,2,'',1,0,'');
+REPLACE INTO `modx_migx_formtabs` VALUES (3,3,'',1,0,'');
 /*!40000 ALTER TABLE `modx_migx_formtabs` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

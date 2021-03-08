@@ -11,6 +11,15 @@
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` DISABLE KEYS */;
 REPLACE INTO `modx_site_tmplvar_templates` VALUES (1,3,0);
 REPLACE INTO `modx_site_tmplvar_templates` VALUES (2,3,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (3,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (4,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (5,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (6,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (7,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (8,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (9,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (10,35,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (11,35,0);
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

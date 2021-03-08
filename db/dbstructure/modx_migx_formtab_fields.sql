@@ -30,7 +30,7 @@ CREATE TABLE `modx_migx_formtab_fields` (
   KEY `formtab_id` (`formtab_id`),
   KEY `field` (`field`),
   KEY `pos` (`pos`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

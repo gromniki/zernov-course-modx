@@ -21,6 +21,10 @@ REPLACE INTO `modx_categories` VALUES (21,0,'ms2Gallery',0);
 REPLACE INTO `modx_categories` VALUES (22,0,'Text Page',0);
 REPLACE INTO `modx_categories` VALUES (23,0,'MIGX',0);
 REPLACE INTO `modx_categories` VALUES (24,0,'Файлы',0);
+REPLACE INTO `modx_categories` VALUES (25,0,'О продукции',0);
+REPLACE INTO `modx_categories` VALUES (26,0,'Блок с электрикой',0);
+REPLACE INTO `modx_categories` VALUES (27,0,'Блок с регистрацией',0);
+REPLACE INTO `modx_categories` VALUES (28,0,'Рабочий процесс видео',0);
 /*!40000 ALTER TABLE `modx_categories` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

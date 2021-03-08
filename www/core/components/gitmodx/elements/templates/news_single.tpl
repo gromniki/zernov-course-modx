@@ -9,7 +9,7 @@
     <div class="base footer_v1_mod">
         <div class="page_head_block v3_mod">
             {include 'b.breadCrumbs'
-              noBgMod = true
+                version = 2
             }
             <h2 class="page_head_title black_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h2>
         </div>

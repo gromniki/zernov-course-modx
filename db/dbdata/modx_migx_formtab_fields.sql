@@ -12,6 +12,10 @@
 REPLACE INTO `modx_migx_formtab_fields` VALUES (1,1,1,'title','Заголовок','',1,0,'','','','','','','config','','','','');
 REPLACE INTO `modx_migx_formtab_fields` VALUES (2,1,1,'link','Ссылка','Ссылка, публикуемая рядом с файлом (опционально)',2,0,'','','','','','','config','','','','');
 REPLACE INTO `modx_migx_formtab_fields` VALUES (3,1,1,'file','Файл','Файл для скачивания',3,0,'','file','','','','','config','[{\"MIGX_id\":\"1\",\"context\":\"web\",\"sourceid\":\"2\"},{\"MIGX_id\":\"2\",\"context\":\"mgr\",\"sourceid\":\"2\"}]','','','');
+REPLACE INTO `modx_migx_formtab_fields` VALUES (4,2,2,'link','Ссылка','',1,0,'','','','','','','config','','','','');
+REPLACE INTO `modx_migx_formtab_fields` VALUES (5,2,2,'linkText','Текст на ссылке','',2,0,'','','','','','','config','','','','');
+REPLACE INTO `modx_migx_formtab_fields` VALUES (6,3,3,'text','Текст пункта','',1,0,'','','','','','','config','','','','');
+REPLACE INTO `modx_migx_formtab_fields` VALUES (7,3,3,'mark','Выделить?','',2,0,'','checkbox','','','','','config','','Да==1','','');
 /*!40000 ALTER TABLE `modx_migx_formtab_fields` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

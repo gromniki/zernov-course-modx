@@ -10,7 +10,7 @@
         <div class="page_content_block v1_mod">
             <div class="page_head_block v4_mod">
                 {include 'b.breadCrumbs'
-                    noBgMod = true
+                    version = 2
                 }
                 <h2 class="page_head_title black_mod offset_1_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h2>
             </div>
