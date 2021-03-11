@@ -7,26 +7,12 @@
 
             {if $_modx->resource.changeElectricLinks}
                 <ul class="want_el_butt_list">
-
                     {set $links = $_modx->resource.changeElectricLinks | json_decode}
                     {foreach $links as $link}
                         <li class="want_el_butt_item">
                             <a href="{$link.link}" class="want_el_butt"><span class="want_el_butt_in">{$link.linkText}</span></a>
                         </li>
                     {/foreach}
-
-
-                    {*<li class="want_el_butt_item">
-                        <a href="dlya-pokupateley-elvert/dlya-doma.html" class="want_el_butt"><span class="want_el_butt_in">Для дома</span></a>
-                    </li>
-
-                    <li class="want_el_butt_item">
-                        <a href="dlya-pokupateley-elvert/dlya-dachi.html" class="want_el_butt"><span class="want_el_butt_in">Для дачи</span></a>
-                    </li>
-
-                    <li class="want_el_butt_item">
-                        <a href="dlya-pokupateley-elvert/dlya-raboty.html" class="want_el_butt"><span class="want_el_butt_in">Для работы</span></a>
-                    </li>*}
                 </ul>
             {/if}
         </div>

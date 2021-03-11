@@ -25,6 +25,8 @@ REPLACE INTO `modx_categories` VALUES (25,0,'О продукции',0);
 REPLACE INTO `modx_categories` VALUES (26,0,'Блок с электрикой',0);
 REPLACE INTO `modx_categories` VALUES (27,0,'Блок с регистрацией',0);
 REPLACE INTO `modx_categories` VALUES (28,0,'Рабочий процесс видео',0);
+REPLACE INTO `modx_categories` VALUES (29,0,'Блок о сотрудничестве',0);
+REPLACE INTO `modx_categories` VALUES (30,0,'Блок справочника ГОСТ',0);
 /*!40000 ALTER TABLE `modx_categories` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

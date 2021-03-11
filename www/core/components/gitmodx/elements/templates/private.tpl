@@ -25,8 +25,6 @@
 </div>
 {include 'b.footer'}
 {include 'b.footerScripts'}
-
 {include 'b.youtubePopup'}
-
 </body>
 </html>

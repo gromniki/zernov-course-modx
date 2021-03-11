@@ -30,7 +30,7 @@ CREATE TABLE `modx_ms2_resource_files` (
   KEY `parent` (`parent`),
   KEY `hash` (`hash`),
   KEY `active` (`active`)
-) ENGINE=InnoDB AUTO_INCREMENT=144 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=146 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

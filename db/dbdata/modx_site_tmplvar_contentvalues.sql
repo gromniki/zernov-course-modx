@@ -20,6 +20,15 @@ REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (10,8,23,'Зарегист
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (9,9,23,'[{\"MIGX_id\":\"1\",\"text\":\"\\u0425\\u0440\\u0430\\u043d\\u0438\\u0442\\u0435 \\u0438\\u0441\\u0442\\u043e\\u0440\\u0438\\u044e \\u0437\\u0430\\u043a\\u0430\\u0437\\u043e\\u0432\",\"mark\":\"\"},{\"MIGX_id\":\"2\",\"text\":\"\\u041f\\u043e\\u043b\\u0443\\u0447\\u0430\\u0439\\u0442\\u0435 \\u0441\\u043a\\u0438\\u0434\\u043a\\u0438 \\u043f\\u043e\\u0441\\u043b\\u0435 \\u0441\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u0438\\u044f \\u0437\\u0430\\u043a\\u0430\\u0437\\u0430\",\"mark\":\"1\"},{\"MIGX_id\":\"3\",\"text\":\"\\u0421\\u043a\\u0430\\u0447\\u0430\\u0439\\u0442\\u0435 \\u044d\\u043b\\u0435\\u043a\\u0442\\u0440\\u043e\\u043d\\u043d\\u044b\\u0439 \\u043f\\u0440\\u0430\\u0439\\u0441-\\u043b\\u0438\\u0441\\u0442 \\u043f\\u043e\\u0441\\u043b\\u0435 \\u0440\\u0435\\u0433\\u0438\\u0441\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438\",\"mark\":\"\"},{\"MIGX_id\":\"4\",\"text\":\"\\u041f\\u043e\\u043b\\u0443\\u0447\\u0438\\u0442\\u0435 \\u0434\\u043e\\u0441\\u0442\\u0443\\u043f \\u043a \\u0446\\u0435\\u043d\\u0430\\u043c, CAD-\\u0441\\u0445\\u0435\\u043c\\u0430\\u043c, 3D-\\u043c\\u043e\\u0434\\u0435\\u043b\\u044f\\u043c\",\"mark\":\"1\"}]');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (11,10,23,'Процесс работы');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (12,11,23,'9bx0HoWWyXI');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (13,11,22,'9bx0HoWWyXI');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (14,10,22,'Как мы поддерживаем производителей');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (17,12,22,'Приглашаем к сотрудничеству производителей');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (16,13,22,'Наша компания готова предложить широкий спектр электрооборудования собственного производства, в том числе аккумуляторные шкафы, панели распределения тока и выпрямительные системы.');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (18,14,22,'Справочник ГОСТ');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (19,15,22,'Зарегистрируйтесь и скачайте справочник');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (20,16,22,'documents/Список модулей.pdf');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (21,17,22,'Хотите стать нашим партнером?');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (22,18,22,'Регистрируйтесь и получайте бонусы');
 /*!40000 ALTER TABLE `modx_site_tmplvar_contentvalues` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

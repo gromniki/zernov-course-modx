@@ -20,6 +20,13 @@ REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',8,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',9,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',10,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',11,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',12,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',13,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',14,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',15,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',17,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',18,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (2,'modTemplateVar',16,'web');
 /*!40000 ALTER TABLE `modx_media_sources_elements` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
