@@ -26,6 +26,9 @@ REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',14,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',15,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',17,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',18,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',19,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',20,'web');
+REPLACE INTO `modx_media_sources_elements` VALUES (1,'modTemplateVar',21,'web');
 REPLACE INTO `modx_media_sources_elements` VALUES (2,'modTemplateVar',16,'web');
 /*!40000 ALTER TABLE `modx_media_sources_elements` ENABLE KEYS */;
 
