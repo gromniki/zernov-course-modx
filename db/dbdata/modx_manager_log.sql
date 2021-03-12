@@ -793,6 +793,9 @@ REPLACE INTO `modx_manager_log` VALUES (781,1,'2021-03-11 23:28:56','tv_update',
 REPLACE INTO `modx_manager_log` VALUES (782,1,'2021-03-11 23:28:57','propertyset_update_from_element','modPropertySet','modTemplateVar 21 Default');
 REPLACE INTO `modx_manager_log` VALUES (783,1,'2021-03-11 23:31:32','resource_update','modResource','21');
 REPLACE INTO `modx_manager_log` VALUES (784,1,'2021-03-11 23:32:28','resource_update','modResource','21');
+REPLACE INTO `modx_manager_log` VALUES (785,1,'2021-03-12 14:01:30','resource_update','modResource','13');
+REPLACE INTO `modx_manager_log` VALUES (786,1,'2021-03-12 14:18:43','resource_create','modDocument','34');
+REPLACE INTO `modx_manager_log` VALUES (787,1,'2021-03-12 14:19:53','resource_update','modResource','34');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
