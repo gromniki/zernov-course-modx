@@ -1,0 +1,623 @@
+{
+    "pagetitle": "Пускорегулирующая аппаратура",
+    "introtext": "Электрические устройства и аппараты, применяемые для пуска и торможения электрических машин, изменения направления их вращения, регулирования частоты вращения и других параметров, а также для их защиты при ненормальных режимах работы.",
+    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/2e5\/2e5671fcdae9ff078bc93cd6f222f452.png",
+    "subcats": [
+        {
+            "pagetitle": "Автоматические выключатели защиты двигателя ",
+            "introtext": "Автоматические выключатели еМ03 и еМ08 серии Engard предназначены для управления и защиты трехфазных асинхронных электродвигателей от перегрузки, короткого замыкания и обрыва фазы; совмещают в себе функции автоматического выключателя защиты двигателя и ручного пускателя; имеют возможность регулировки порога срабатывания по защите от перегрузки (функция теплового реле)<br>\r\n  <br>\r\n  <br>\r\n  ",
+            "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/9e8\/9e8c6afa41302c57af908bf6b9446c26.jpg",
+            "subcats": [
+                {
+                    "pagetitle": "АПД-03 Engard ",
+                    "introtext": "    <br>\r\n   ",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/481\/48141bc7888a343b6f31153b7328d6c4.png",
+                    "products": [
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=6,3 A Ir=4-6,3 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/d0f\/d0f5b2386b3a637ed48f4392e7e9af4b.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/d0f\/d0f5b2386b3a637ed48f4392e7e9af4b.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=32 A Ir=24-32 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e70\/e701acbbc4281feaa3d37b86282aa297.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e70\/e701acbbc4281feaa3d37b86282aa297.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=25 A Ir=20-25 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/643\/6434222b09f5025cd52f93adf233fe9d.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/643\/6434222b09f5025cd52f93adf233fe9d.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=2,5 A Ir=1,6-2,5 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/507\/5071531bf5d3309c72d1aef933acc7d2.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/507\/5071531bf5d3309c72d1aef933acc7d2.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=18 A Ir=13-18 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f5b\/f5b4587249a7e5ff0c36a34f45518e77.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f5b\/f5b4587249a7e5ff0c36a34f45518e77.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=14 A Ir=9-14 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b94\/b94e887a5032387ee8f238b82ed5e5f7.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b94\/b94e887a5032387ee8f238b82ed5e5f7.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=10 A Ir=6-10 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/a01\/a014b3a28dff938a60d0be523294d001.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/a01\/a014b3a28dff938a60d0be523294d001.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=1,6 A Ir=1-1,6 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/880\/880b3cc1f3b92697bf17e5d9317ca9e2.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/880\/880b3cc1f3b92697bf17e5d9317ca9e2.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=4 A Ir=2,5-4 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ace\/ace0f3254de1f9da52fb932183631ecd.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ace\/ace0f3254de1f9da52fb932183631ecd.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-03 In=0,63 A Ir=0,4-0,63 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/826\/8260f8e416c22f3644b9751d9c2d252d.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/826\/8260f8e416c22f3644b9751d9c2d252d.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "pagetitle": "АПД-08 Engard ",
+                    "introtext": "    <br>\r\n   ",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/1e5\/1e518677616ceb92c9e91e7e007ede6f.png",
+                    "products": [
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-08 In=64 A Ir=40-63 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/8b9\/8b9e4c4105b51061b16ae681c94aa442.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/8b9\/8b9e4c4105b51061b16ae681c94aa442.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-08 In=40 A Ir=25-40 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e5e\/e5e30088c7785f8174ade563855c16c5.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e5e\/e5e30088c7785f8174ade563855c16c5.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-08 In=25 A Ir=16-25 A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ab5\/ab5557f491ad08642630f316e87a0855.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ab5\/ab5557f491ad08642630f316e87a0855.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя  АПД-08 In=80A Ir=56-80A",
+                            "content": "    <br>\n   ",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/09c\/09c648b18d50bc91a9ad724a623f6727.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/09c\/09c648b18d50bc91a9ad724a623f6727.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "pagetitle": "Серия eM03 ",
+                    "introtext": "",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/65a\/65af16006c5bbbd46a83b4c699c8ae40.jpg",
+                    "products": [
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-0,63",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/556\/556dd58dc0fcadf1d1faabc5bd13fd07.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/556\/556dd58dc0fcadf1d1faabc5bd13fd07.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "0,63",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "0,4-0,63",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-1",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b9f\/b9ff9ca164d6771e2cc6fc2b58b414fb.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b9f\/b9ff9ca164d6771e2cc6fc2b58b414fb.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "1",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "0,63-1",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-1,6",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/67e\/67e1791198160b67e69b47e660d6da9b.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/67e\/67e1791198160b67e69b47e660d6da9b.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "1,6",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "1-1,6",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-2,5",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b5f\/b5f20696d483a32a47264fa97ff00be1.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b5f\/b5f20696d483a32a47264fa97ff00be1.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "2,5",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "1,6-2,5",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-4",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f2d\/f2dbe7c1627b1233ab771cfb724b3edc.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f2d\/f2dbe7c1627b1233ab771cfb724b3edc.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "4",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "2,5-4",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-6,3",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/c8a\/c8aeb60710220e755ba0acc64c2c9cde.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/c8a\/c8aeb60710220e755ba0acc64c2c9cde.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "6,3",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "4-6,3",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-10",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/65d\/65dae22e36bf7d23f178b169cdabcef3.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/65d\/65dae22e36bf7d23f178b169cdabcef3.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "10",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "6-10",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-14",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/624\/624b2abb6463d77de5bb8b3d2c01905a.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/624\/624b2abb6463d77de5bb8b3d2c01905a.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "14",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "9-14",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-18",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/30f\/30f4fcf6a91612b7456c4abcb141180d.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/30f\/30f4fcf6a91612b7456c4abcb141180d.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "18",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "13-18",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        },
+                        {
+                            "pagetitle": "Автоматический выключатель защиты двигателя eM03-23",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/331\/331502ebd6745f8f31d45b52d6848051.jpg",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/331\/331502ebd6745f8f31d45b52d6848051.jpg"
+                            ],
+                            "options": {
+                                "Номинальный ток In, (А)": "23",
+                                "Частота, (Гц)": "50-60",
+                                "Диапазон регулировки Ir, (А)": "17-23",
+                                "Производитель": "ELVERT",
+                                "Серия": "Engard"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "pagetitle": "Дополнительное оборудование для контакторов ",
+            "introtext": "Приставки\r\nконтактные мгновенного действия и с задержкой срабатывания, блокировочные\r\nустройства устанавливаются на электромагнитные контакторы серии Effica и Engard для обеспечения\r\nвозможности адаптации контакторов в системах автоматического управления нагрузками.",
+            "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/b89\/b89f75389fcdb1bdc4a4b99b3fe2095b.png",
+            "subcats": [
+                {
+                    "pagetitle": "Блокировочное устройство для контакторов Engard ",
+                    "introtext": "• Обеспечивают взаимную механическую блокировку 2-х контакторов, исключая их одновременное включение, и предназначены для самостоятельной сборки реверсивных контакторов.",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/215\/215e07d0effe29c3f210f330d3e6e32c.png",
+                    "products": [
+                        {
+                            "pagetitle": "Блокировочное устройство для контакторов до 95А",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/70a\/70ad4c6dd309b74523b58b5f306d3c75.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/22b\/22b8f1dd287da3a21f4ee8e21f70bfe9.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/70a\/70ad4c6dd309b74523b58b5f306d3c75.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/22b\/22b8f1dd287da3a21f4ee8e21f70bfe9.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Блокировочное устройство для контакторов до 32А",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f9f\/f9ff8bd70049efd8185074f43ad407b1.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/5ad\/5ad2cf96f3931acf94daab0860fc5598.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/f9f\/f9ff8bd70049efd8185074f43ad407b1.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/5ad\/5ad2cf96f3931acf94daab0860fc5598.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "pagetitle": "Блокировочные устройства B серии Effica ",
+                    "introtext": "• Обеспечивают взаимную механическую блокировку 2-х контакторов, исключая их одновременное включение, и предназначены для самостоятельной сборки реверсивных контакторов.<br>\r\n • Подходят для малогабаритных контакторов СС10 серии Effica.<br>\r\n <br>\r\n   <br>\r\n  ",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/344\/344bf49adb7f50747d90ecf3503496f0.png",
+                    "products": [
+                        {
+                            "pagetitle": "Блокировочное устройство B03 для контакторов СС10  до 32А",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/089\/089056ba142f4ac504510ff4b421379e.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/089\/089056ba142f4ac504510ff4b421379e.png"
+                            ],
+                            "options": {
+                                "Цвет": "Черный",
+                                "Диапазон рабочих токов совместимых контакторов, А": "9-32",
+                                "Типоразмер совместимых контакторов": "СС101, СС102, СС103",
+                                "Совместимые модели контакторов": "СС10",
+                                "Масса, (кг)": "0,4",
+                                "Монтаж": "Сбоку контактора",
+                                "Производитель": "ELVERT",
+                                "Серия": "Effica"
+                            }
+                        },
+                        {
+                            "pagetitle": "Блокировочное устройство B10 для контакторов СС10  до 95А",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/794\/7945bbe213b468b5a0d30557bbaee63a.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/794\/7945bbe213b468b5a0d30557bbaee63a.png"
+                            ],
+                            "options": {
+                                "Цвет": "Черный",
+                                "Диапазон рабочих токов совместимых контакторов, А": "40-95",
+                                "Типоразмер совместимых контакторов": "СС104, СС105",
+                                "Совместимые модели контакторов": "СС10",
+                                "Масса, (кг)": "0,10",
+                                "Монтаж": "Сбоку контактора",
+                                "Производитель": "ELVERT",
+                                "Серия": "Effica"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "pagetitle": "Приставка контактная ПВЛ Engard ",
+                    "introtext": "• Предназначены для возможности включения\/отключения контакторов с заданной выдержкой времени.<br>\r\n • Обеспечивают выдержку времени от 0,1 до 180 сек. в зависимости от исполнения.<br>\r\n • Все модели имеют дополнительную контактную группу 1НО+1НЗ.<br>\r\n • Соответствуют ГОСТ Р 50030.5.1, IEC 60947-5-1.<br>\n",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/463\/463284ebb62d2589776d0a4473888e87.png",
+                    "products": [
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени отключения ПВЛ 0,1-3 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/cc8\/cc83a798120b97a91afc32ca0598fdef.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/dda\/ddadeeb28ed5e19a59fbc4c5e1284ef9.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/cc8\/cc83a798120b97a91afc32ca0598fdef.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/dda\/ddadeeb28ed5e19a59fbc4c5e1284ef9.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени отключения ПВЛ 0,1-30 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ad3\/ad30d8f09dc25915b79ce0e562b3d8c3.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/771\/771dc040637dd6502f1beb1416f03d5b.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/ad3\/ad30d8f09dc25915b79ce0e562b3d8c3.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/771\/771dc040637dd6502f1beb1416f03d5b.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени включения ПВЛ 0,1-3 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/6cf\/6cf91efa42897ada59079f169956171f.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/6cf\/6cf91efa42897ada59079f169956171f.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени включения ПВЛ 0,1-30 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e13\/e13641985386990eabc2de62b4211ffd.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/e13\/e13641985386990eabc2de62b4211ffd.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени включения ПВЛ 10-180 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/91f\/91f1d978c559bf84bb3f5807155255ed.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/91f\/91f1d978c559bf84bb3f5807155255ed.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Приставка контактная с выдержкой времени отключения ПВЛ 10-180 сек.",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/487\/48729d8d96be0d34ce54eda5311a425e.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/487\/48729d8d96be0d34ce54eda5311a425e.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "pagetitle": "Пускатели закрытые в корпусе ",
+            "introtext": "• Предназначены для дистанционного пуска\/останова трехфазных асинхронных двигателей с короткозамкнутым ротором в сети переменного тока напряжением до 400 В.<br>\r\n • В линейке имеются пускатели с напряжением управления на 230 и 400 В переменного тока.<br>\r\n• Заводская сборка схемы управления прямым пуском двигателя сокращает время, для работы пускателя необходимо лишь подключить питание и нагрузку.<br>\r\n • Герметичная оболочка из поликарбоната для типоразмеров пускателей ПМЛ  обеспечивает степень защиты IP65, что позволяет применять пускатели в жестких условиях эксплуатации – на строительных площадках, в промышленных цехах различного типа.<br>\r\n • Для подключения кабеля в корпусе имеются пластиковые кабельные вводы (сальники), не нарушающие степень защиты оболочки.<br>\r\n • Соответствуют ГОСТ Р 50030.4.1 IEC 60947-4-1.<br>\r\n<br>\r\n   <br>\r\n   ",
+            "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/545\/54534beab52829cd876ed8f5508bf79d.png",
+            "subcats": [
+                {
+                    "pagetitle": "ПМЛ Серии Engard ",
+                    "introtext": "",
+                    "imageUrl": "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/92a\/92a7b3305b5ae43232cb3654ce6a8b88.png",
+                    "products": [
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-5220 95A 400В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/3cb\/3cbee331d0361b2ddda7268f5b6b7b77.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/3cb\/3cbee331d0361b2ddda7268f5b6b7b77.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-4220 65A 400В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/4c7\/4c766ae218b66b2f65f17fdf5bdbf81f.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/4c7\/4c766ae218b66b2f65f17fdf5bdbf81f.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-4220 50A 400В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/d6c\/d6ce4ae1162c2bd62e0910c84e18f493.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/d6c\/d6ce4ae1162c2bd62e0910c84e18f493.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-4220 40A 400В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/6e7\/6e70ff5d0a2ea0105770a768bdd52a94.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/6e7\/6e70ff5d0a2ea0105770a768bdd52a94.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-4220 50A 230В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/70b\/70bf9fdf4f02f5e60e3fb75e31b8db8f.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/70b\/70bf9fdf4f02f5e60e3fb75e31b8db8f.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-2220 25A 230В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/7cf\/7cf3edbd29deaa0690937c54d69f1994.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/7cf\/7cf3edbd29deaa0690937c54d69f1994.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-1220 12A 230В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/1fa\/1fafc1edb2a5a3bd19c5c4160899d7fe.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/1fa\/1fafc1edb2a5a3bd19c5c4160899d7fe.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-1220 9A 230В IР65",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/931\/931bd8dadb7c3d20135ec93de2a27ff0.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/931\/931bd8dadb7c3d20135ec93de2a27ff0.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-1220 9A 400В IР65 ",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/9e4\/9e43383eb79c8a1622d800811674f3fb.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/9e4\/9e43383eb79c8a1622d800811674f3fb.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        },
+                        {
+                            "pagetitle": "Пускатель закрытый в корпусе ПМЛ-1220 12A 400В IР65 ",
+                            "content": "",
+                            "images": [
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/fb1\/fb1dda40ba92f272897eb31046271377.png",
+                                "https:\/\/opt-1473645.ssl.1c-bitrix-cdn.ru\/upload\/iblock\/fb1\/fb1dda40ba92f272897eb31046271377.png"
+                            ],
+                            "options": {
+                                "Производитель": "ENGARD"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

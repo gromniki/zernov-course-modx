@@ -796,6 +796,19 @@ REPLACE INTO `modx_manager_log` VALUES (784,1,'2021-03-11 23:32:28','resource_up
 REPLACE INTO `modx_manager_log` VALUES (785,1,'2021-03-12 14:01:30','resource_update','modResource','13');
 REPLACE INTO `modx_manager_log` VALUES (786,1,'2021-03-12 14:18:43','resource_create','modDocument','34');
 REPLACE INTO `modx_manager_log` VALUES (787,1,'2021-03-12 14:19:53','resource_update','modResource','34');
+REPLACE INTO `modx_manager_log` VALUES (788,1,'2021-03-12 15:01:32','template_create','modTemplate','41');
+REPLACE INTO `modx_manager_log` VALUES (789,1,'2021-03-12 15:01:45','template_update','modTemplate','41');
+REPLACE INTO `modx_manager_log` VALUES (790,1,'2021-03-12 15:01:45','propertyset_update_from_element','modPropertySet','modTemplate 41 Default');
+REPLACE INTO `modx_manager_log` VALUES (791,1,'2021-03-12 15:06:18','resource_create','msCategory','35');
+REPLACE INTO `modx_manager_log` VALUES (792,1,'2021-03-12 15:06:33','resource_update','msCategory','35');
+REPLACE INTO `modx_manager_log` VALUES (793,1,'2021-03-12 15:08:03','resource_create','msProduct','36');
+REPLACE INTO `modx_manager_log` VALUES (794,1,'2021-03-12 15:08:07','resource_update','msProduct','36');
+REPLACE INTO `modx_manager_log` VALUES (795,1,'2021-03-12 15:14:46','source_duplicate','sources.modMediaSource','11');
+REPLACE INTO `modx_manager_log` VALUES (796,1,'2021-03-12 15:15:17','source_update','sources.modMediaSource','11');
+REPLACE INTO `modx_manager_log` VALUES (797,1,'2021-03-12 15:15:46','source_update','sources.modMediaSource','11');
+REPLACE INTO `modx_manager_log` VALUES (798,1,'2021-03-12 15:17:08','source_update','sources.modMediaSource','11');
+REPLACE INTO `modx_manager_log` VALUES (799,1,'2021-03-12 15:17:48','source_update','sources.modMediaSource','6');
+REPLACE INTO `modx_manager_log` VALUES (800,1,'2021-03-12 15:26:50','source_update','sources.modMediaSource','6');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -31,7 +31,7 @@ CREATE TABLE `modx_ms2_products` (
   KEY `favorite` (`favorite`),
   KEY `popular` (`popular`),
   KEY `made_in` (`made_in`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

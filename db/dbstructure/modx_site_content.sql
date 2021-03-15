@@ -70,7 +70,7 @@ CREATE TABLE `modx_site_content` (
   KEY `show_in_tree` (`show_in_tree`),
   KEY `cache_refresh_idx` (`parent`,`menuindex`,`id`),
   FULLTEXT KEY `content_ft_idx` (`pagetitle`,`longtitle`,`description`,`introtext`,`content`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

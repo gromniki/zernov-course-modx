@@ -9,6 +9,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_ms2_products` DISABLE KEYS */;
+REPLACE INTO `modx_ms2_products` VALUES (36,'',0.00,0.00,0.000,NULL,NULL,0,'',0,0,0,'[\"undefined\"]','[\"undefined\"]','[\"undefined\"]',6);
 /*!40000 ALTER TABLE `modx_ms2_products` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

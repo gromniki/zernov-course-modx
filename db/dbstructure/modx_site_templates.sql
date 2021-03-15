@@ -25,7 +25,7 @@ CREATE TABLE `modx_site_templates` (
   KEY `category` (`category`),
   KEY `locked` (`locked`),
   KEY `static` (`static`)
-) ENGINE=MyISAM AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
