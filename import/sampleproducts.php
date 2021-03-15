@@ -9,7 +9,7 @@ ob_end_clean();
 //TODO Укажите корректный ID родительского каталога и шаблонов
 const PARENT_CATEGORY_ID = 5;
 const CATEGORY_TEMPLATE_ID = 27; // Шаблон категории catalog_single
-const PRODUCT_GROUP_TEMPLATE_ID = 26; // catalog_product
+const PRODUCT_GROUP_TEMPLATE_ID = 26; // Шаблон группы catalog_product
 const PRODUCT_TEMPLATE_ID = 41;
 const SAMPLE_DATA_DIR = __DIR__ . '/sampledata';
 const CATEGORY_MEDIA_SOURCE_ID = 11;

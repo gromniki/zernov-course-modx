@@ -8,8 +8,8 @@ return [
 
     'ms2_category_grid_fields' => 'id,menuindex,pagetitle,article,price,thumb,new,favorite,popular',
     'ms2_category_show_options' => 'true',
-    'ms2_template_category_default' => 28,
-    'ms2_template_product_default' => 27,
+    'ms2_template_category_default' => 27,
+    'ms2_template_product_default' => 41,
 
     'ms2_cart_handler_class' => 'msCartHandler',
 

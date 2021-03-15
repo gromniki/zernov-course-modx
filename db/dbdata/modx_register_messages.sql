@@ -10,7 +10,6 @@
 
 /*!40000 ALTER TABLE `modx_register_messages` DISABLE KEYS */;
 REPLACE INTO `modx_register_messages` VALUES (3,'e4bce4561a23feafc085638667e128ad','2021-03-14 13:29:09','2021-03-14 13:29:09',NULL,0,1615804149,'if (time() > 1615804149) return null;\nreturn true;\n',0);
-REPLACE INTO `modx_register_messages` VALUES (1,'70efdf2ec9b086079795c442636b55fb','2021-03-14 19:59:42','2021-03-14 19:59:42',NULL,0,1615741542,'if (time() > 1615741542) return null;\nreturn 1;\n',0);
 /*!40000 ALTER TABLE `modx_register_messages` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -809,6 +809,8 @@ REPLACE INTO `modx_manager_log` VALUES (797,1,'2021-03-12 15:15:46','source_upda
 REPLACE INTO `modx_manager_log` VALUES (798,1,'2021-03-12 15:17:08','source_update','sources.modMediaSource','11');
 REPLACE INTO `modx_manager_log` VALUES (799,1,'2021-03-12 15:17:48','source_update','sources.modMediaSource','6');
 REPLACE INTO `modx_manager_log` VALUES (800,1,'2021-03-12 15:26:50','source_update','sources.modMediaSource','6');
+REPLACE INTO `modx_manager_log` VALUES (801,1,'2021-03-15 11:46:14','resource_update','msCategory','5');
+REPLACE INTO `modx_manager_log` VALUES (802,1,'2021-03-15 11:49:10','resource_update','msCategory','5');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
