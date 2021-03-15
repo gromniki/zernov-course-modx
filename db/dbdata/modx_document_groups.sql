@@ -12,17 +12,13 @@
 REPLACE INTO `modx_document_groups` VALUES (8,2,12);
 REPLACE INTO `modx_document_groups` VALUES (16,2,11);
 REPLACE INTO `modx_document_groups` VALUES (10,3,1);
-REPLACE INTO `modx_document_groups` VALUES (23,3,17);
-REPLACE INTO `modx_document_groups` VALUES (22,3,16);
 REPLACE INTO `modx_document_groups` VALUES (13,3,13);
 REPLACE INTO `modx_document_groups` VALUES (25,3,26);
 REPLACE INTO `modx_document_groups` VALUES (26,3,27);
 REPLACE INTO `modx_document_groups` VALUES (27,3,28);
-REPLACE INTO `modx_document_groups` VALUES (28,3,35);
 REPLACE INTO `modx_document_groups` VALUES (19,3,7);
 REPLACE INTO `modx_document_groups` VALUES (20,3,8);
 REPLACE INTO `modx_document_groups` VALUES (24,3,25);
-REPLACE INTO `modx_document_groups` VALUES (29,3,36);
 /*!40000 ALTER TABLE `modx_document_groups` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

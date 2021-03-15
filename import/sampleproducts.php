@@ -3,7 +3,7 @@
  * Скрипт для импорта тестовых товаров и категорий на сайт
  */
 define("MODX_API_MODE", true);
-include dirname(__DIR__).'/www/index.php';
+include dirname(__DIR__) . '/www/index.php';
 ob_end_clean();
 
 //TODO Укажите корректный ID родительского каталога и шаблонов

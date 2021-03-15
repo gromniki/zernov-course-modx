@@ -28,7 +28,7 @@ CREATE TABLE `modx_ms2_product_files` (
   KEY `parent` (`parent`),
   KEY `hash` (`hash`),
   KEY `active` (`active`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1553 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -18,7 +18,7 @@ CREATE TABLE `modx_ms2_options` (
   KEY `key` (`type`),
   KEY `category` (`category`),
   FULLTEXT KEY `caption_ft` (`caption`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
