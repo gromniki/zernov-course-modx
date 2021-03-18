@@ -10,14 +10,16 @@
 
 /*!40000 ALTER TABLE `modx_clientconfig_setting` DISABLE KEYS */;
 REPLACE INTO `modx_clientconfig_setting` VALUES (1,'le_site_address','Адрес организации','textfield','',0,0,'г. Ноунейм, ул. Неизвестная, д. 5','',1,'',0,0);
-REPLACE INTO `modx_clientconfig_setting` VALUES (2,'le_site_phone','Телефон','textfield','',0,1,'+7(495)123-45-67','',1,'',0,0);
-REPLACE INTO `modx_clientconfig_setting` VALUES (3,'le_site_email','Email, отображаемый на сайте','textfield','',0,2,'info@lectoria_eshops.my','',1,'',0,0);
+REPLACE INTO `modx_clientconfig_setting` VALUES (2,'le_site_phone','Телефон','textfield','',0,1,'+7(495)123-14-88','',1,'',0,0);
+REPLACE INTO `modx_clientconfig_setting` VALUES (3,'le_site_email','Email, отображаемый на сайте','textfield','',0,2,'grom272008@yandex.ru','',1,'',0,0);
 REPLACE INTO `modx_clientconfig_setting` VALUES (4,'le_vk','Ссылка на страницу VK','textfield','',0,3,'https://vk.com','',2,'',0,0);
 REPLACE INTO `modx_clientconfig_setting` VALUES (5,'le_instagram','Ссылка на страницу Instagram','textfield','',0,4,'https://instagram.com/','',2,'',0,0);
 REPLACE INTO `modx_clientconfig_setting` VALUES (6,'le_facebook','Ссылка на страницу Facebook','textfield','',0,5,'https://fb.com','',2,'',0,0);
 REPLACE INTO `modx_clientconfig_setting` VALUES (7,'le_youtube','Ссылка на страницу Youtube','textfield','',0,6,'https://youtube.com','',2,'',0,0);
 REPLACE INTO `modx_clientconfig_setting` VALUES (8,'ms2_email_manager','Почтовые адреса менеджеров для уведомлений о заказах','textfield','',0,7,'shop@lectoria_eshops.my','',3,'',0,0);
-REPLACE INTO `modx_clientconfig_setting` VALUES (9,'le_forms_email','Email для уведомлений о заполнении форм на сайте','textfield','',0,8,'forms@lectoria_eshops.my','',1,'',0,0);
+REPLACE INTO `modx_clientconfig_setting` VALUES (9,'le_forms_email','Email для уведомлений о заполнении форм на сайте','textfield','',0,8,'grom272008@yandex.ru','',1,'',0,0);
+REPLACE INTO `modx_clientconfig_setting` VALUES (10,'le_map_lat','Широта точки адреса на карте','textfield','',0,9,'55.700615','',1,'',0,0);
+REPLACE INTO `modx_clientconfig_setting` VALUES (11,'le_map_lng','Долгота точки адреса на карте','textfield','',0,10,'37.645892','',1,'',0,0);
 /*!40000 ALTER TABLE `modx_clientconfig_setting` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

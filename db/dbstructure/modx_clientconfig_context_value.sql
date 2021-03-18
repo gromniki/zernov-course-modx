@@ -11,7 +11,7 @@ CREATE TABLE `modx_clientconfig_context_value` (
   `context` varchar(75) NOT NULL DEFAULT 'web',
   `value` mediumtext NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

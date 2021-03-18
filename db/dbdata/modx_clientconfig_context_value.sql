@@ -10,14 +10,16 @@
 
 /*!40000 ALTER TABLE `modx_clientconfig_context_value` DISABLE KEYS */;
 REPLACE INTO `modx_clientconfig_context_value` VALUES (1,1,'web','г. Ноунейм, ул. Неизвестная, д. 5');
-REPLACE INTO `modx_clientconfig_context_value` VALUES (2,2,'web','+7(495)123-45-67');
-REPLACE INTO `modx_clientconfig_context_value` VALUES (3,3,'web','info@lectoria_eshops.my');
-REPLACE INTO `modx_clientconfig_context_value` VALUES (4,9,'web','forms@lectoria_eshops.my');
+REPLACE INTO `modx_clientconfig_context_value` VALUES (2,2,'web','+7(495)123-14-88');
+REPLACE INTO `modx_clientconfig_context_value` VALUES (3,3,'web','grom272008@yandex.ru');
+REPLACE INTO `modx_clientconfig_context_value` VALUES (4,9,'web','grom272008@yandex.ru');
 REPLACE INTO `modx_clientconfig_context_value` VALUES (5,4,'web','https://vk.com');
 REPLACE INTO `modx_clientconfig_context_value` VALUES (6,5,'web','https://instagram.com/');
 REPLACE INTO `modx_clientconfig_context_value` VALUES (7,6,'web','https://fb.com');
 REPLACE INTO `modx_clientconfig_context_value` VALUES (8,7,'web','https://youtube.com');
 REPLACE INTO `modx_clientconfig_context_value` VALUES (9,8,'web','shop@lectoria_eshops.my');
+REPLACE INTO `modx_clientconfig_context_value` VALUES (10,10,'web','55.700615');
+REPLACE INTO `modx_clientconfig_context_value` VALUES (11,11,'web','37.645892');
 /*!40000 ALTER TABLE `modx_clientconfig_context_value` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

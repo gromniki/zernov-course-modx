@@ -5279,6 +5279,8 @@ REPLACE INTO `modx_manager_log` VALUES (5267,0,'2021-03-15 11:59:44','file_creat
 REPLACE INTO `modx_manager_log` VALUES (5268,1,'2021-03-15 12:28:09','delete_resource','msCategory','17');
 REPLACE INTO `modx_manager_log` VALUES (5269,1,'2021-03-15 12:28:13','delete_resource','msCategory','16');
 REPLACE INTO `modx_manager_log` VALUES (5270,1,'2021-03-15 12:28:21','empty_trash','modResource','16,17,35,36');
+REPLACE INTO `modx_manager_log` VALUES (5271,1,'2021-03-16 15:54:24','object_create','cgSetting','10');
+REPLACE INTO `modx_manager_log` VALUES (5272,1,'2021-03-16 15:55:01','object_create','cgSetting','11');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
