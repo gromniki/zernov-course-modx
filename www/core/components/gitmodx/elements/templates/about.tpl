@@ -43,7 +43,7 @@
             <div class="about_info_w v1_mod">
                 <div class="about_info_text v1_mod">[[*content]]</div>
                 <ul class="companies_list v1_mod">
-                    {var $files = $_modx->resource.fileList | json_decode}
+                    {set $files = $_modx->resource.fileList | json_decode}
                     {if ($files | iterable) && ($files | count > 0)}
                         {foreach $files as $file}
                             <li class="companies_item v1_mod">

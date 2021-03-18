@@ -1,5 +1,5 @@
 <header class="header">
-
+    {block 'aside'}{/block}
     <div class="header_logo_row">
         <div class="header_logo_block">
             <a href="[[~[[++site_start]]]]" class="header_logo_w">LECTSHOP<img alt="" src="assets/i/logo.svg"/></a>
@@ -7,7 +7,6 @@
     </div>
     <div id="header_row" class="header_row shadow_mod">
         <div class="header_row_in">
-
             {'pdoMenu' | snippet : [
                 'parents' => 0,
                 'level' => 2,

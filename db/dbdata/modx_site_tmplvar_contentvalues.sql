@@ -37,6 +37,7 @@ REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (27,19,21,'<p>LECTSHOP –
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (28,12,21,'Подробнее о нашем сотрудничестве');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (29,21,21,'<ol>\r\n<li>Конкурентные цены – увеличение рентабельности на 10-15%</li>\r\n<li>Отсрочку платежа – увеличение оборотных средств</li>\r\n<li>Бесплатную доставку</li>\r\n<li>Гарантию возврата товаров</li>\r\n<li>Маркетинговый бюджет для продвижения продукции</li>\r\n</ol>');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (30,20,21,'Что вы получите работая с нами');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (31,2,250,'[{\"MIGX_id\":\"1\",\"title\":\"Инструкция по установке\",\"link\":\"\",\"file\":\"documents/Список модулей.pdf\"},{\"MIGX_id\":\"2\",\"title\":\"Инструкция по обновлению\",\"link\":\"\",\"file\":\"documents/head_i_1.jpg\"}]');
 /*!40000 ALTER TABLE `modx_site_tmplvar_contentvalues` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

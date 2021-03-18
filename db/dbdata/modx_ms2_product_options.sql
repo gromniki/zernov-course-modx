@@ -1958,14 +1958,6 @@ REPLACE INTO `modx_ms2_product_options` VALUES (248,'stepen_zaschity','52');
 REPLACE INTO `modx_ms2_product_options` VALUES (248,'massa','0,19');
 REPLACE INTO `modx_ms2_product_options` VALUES (248,'sposob_vklyucheniya','Трансформаторный 1500/5');
 REPLACE INTO `modx_ms2_product_options` VALUES (248,'diapazon_izmereniy','0-1500 (А)');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'klass_tochnosti','1,5');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'razmer_litsevoy_paneli','72х72');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'nominalnoe_rabochee_napryazhenie_Ue','400');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'nominalnaya_chastota','45-65');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'stepen_zaschity','52');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'massa','0,17');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'sposob_vklyucheniya','Прямой');
-REPLACE INTO `modx_ms2_product_options` VALUES (250,'diapazon_izmereniy','0-10 (А)');
 REPLACE INTO `modx_ms2_product_options` VALUES (251,'klass_tochnosti','1,5');
 REPLACE INTO `modx_ms2_product_options` VALUES (251,'razmer_litsevoy_paneli','72х72');
 REPLACE INTO `modx_ms2_product_options` VALUES (251,'nominalnoe_rabochee_napryazhenie_Ue','400');
@@ -4026,6 +4018,8 @@ REPLACE INTO `modx_ms2_product_options` VALUES (537,'nominalnoe_napryazhenie_as_
 REPLACE INTO `modx_ms2_product_options` VALUES (537,'chastota','50-60');
 REPLACE INTO `modx_ms2_product_options` VALUES (537,'rabochaya_temperatura','от -45 до +55');
 REPLACE INTO `modx_ms2_product_options` VALUES (537,'proizvoditel','ENGARD');
+REPLACE INTO `modx_ms2_product_options` VALUES (250,'nominalnoe_rabochee_napryazhenie_Ue','400');
+REPLACE INTO `modx_ms2_product_options` VALUES (250,'nominalnaya_chastota','45-65');
 /*!40000 ALTER TABLE `modx_ms2_product_options` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

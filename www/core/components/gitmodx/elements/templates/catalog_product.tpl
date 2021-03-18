@@ -8,36 +8,10 @@
 <div class="wrapper footer_v1_mod">
     <div class="base footer_v1_mod">
         <div class="page_head_block v3_mod">
-            <h1 class="page_head_title black_mod">z406</h1>
-            <nav itemprop="breadcrumb" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs_wrap no_bg_mod">
-                <meta itemprop="name" content="Breadcrumb"/>
-                <meta itemprop="description" content="Navigation path"/>
-                <ul itemprop="itemListElement" class="breadcrumbs_list no_bg_mod">
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadcrumbs_l_item  no_bg_mod">
-                        <a href="" title="Главная" class="breadcrumbs_link no_bg_mod">
-                            <span class="breadcrumbs_text no_bg_mod">Главная</span>
-                        </a>
-                    </li>
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadcrumbs_l_item  no_bg_mod">
-                        <a href="katalog/" title="Каталог" class="breadcrumbs_link no_bg_mod">
-                            <span class="breadcrumbs_text no_bg_mod">Каталог</span>
-                        </a>
-                    </li>
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadcrumbs_l_item  no_bg_mod">
-                        <a href="katalog/modulnoe-oborudovanie/" title="Модульное оборудование" class="breadcrumbs_link no_bg_mod">
-                            <span class="breadcrumbs_text no_bg_mod">Модульное оборудование</span>
-                        </a>
-                    </li>
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadcrumbs_l_item  no_bg_mod">
-                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/" title="Автоматические выключатели" class="breadcrumbs_link no_bg_mod">
-                            <span class="breadcrumbs_text no_bg_mod">Автоматические выключатели</span>
-                        </a>
-                    </li>
-                    <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="breadcrumbs_l_item  no_bg_mod">
-                        <span class="breadcrumbs_text  no_bg_mod">z406</span>
-                    </li>
-                </ul>
-            </nav>
+            <h1 class="page_head_title black_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h1>
+            {include 'b.breadCrumbs'
+                version = 2
+            }
         </div>
         <div class="product_about_w">
             <div class="product_gallery">

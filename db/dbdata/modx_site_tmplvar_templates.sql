@@ -44,6 +44,7 @@ REPLACE INTO `modx_site_tmplvar_templates` VALUES (12,28,0);
 REPLACE INTO `modx_site_tmplvar_templates` VALUES (19,28,0);
 REPLACE INTO `modx_site_tmplvar_templates` VALUES (20,28,0);
 REPLACE INTO `modx_site_tmplvar_templates` VALUES (21,28,0);
+REPLACE INTO `modx_site_tmplvar_templates` VALUES (2,41,0);
 /*!40000 ALTER TABLE `modx_site_tmplvar_templates` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
