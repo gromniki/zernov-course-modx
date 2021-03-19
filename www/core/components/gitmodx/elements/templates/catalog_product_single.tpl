@@ -12,34 +12,17 @@
             {include 'b.breadCrumbs'
                 version = 2
             }
-            <div class="page_head_article">артикул: z406c</div>
+            {if $article}
+                <div class="page_head_article">артикул: [[*article]]</div>
+            {/if}
         </div>
         <div class="product_about_w">
-            <div class="product_gallery">
-                <div class="product_gallery_i_w"><img alt="mZ406C 6A 1p 4,5кА" src="assets/images_example/products/27/830x580/avtomaticheskie-vyklyuchateli-iek-1.png" class="product_gallery_i"></div>
-                <ul class="product_gallery_trigger_list">
-                    <li class="product_gallery_trigger_item">
-                        <a href="#" data-thumblink="images_example/products/27/830x580/avtomaticheskie-vyklyuchateli-iek-1.png" class="product_gallery_trigger_i_w">
-                            <img alt="mZ406C 6A 1p 4,5кА" src="assets/images_example/products/27/84x79/avtomaticheskie-vyklyuchateli-iek-1.jpg" class="product_gallery_trigger_i">
-                        </a>
-                    </li>
-                    <li class="product_gallery_trigger_item">
-                        <a href="#" data-thumblink="images_example/products/27/830x580/0d7ee13380653d9b0ef18bb115008a82.png" class="product_gallery_trigger_i_w">
-                            <img alt="mZ406C 6A 1p 4,5кА" src="assets/images_example/products/27/84x79/0d7ee13380653d9b0ef18bb115008a82.jpg" class="product_gallery_trigger_i">
-                        </a>
-                    </li>
-                    <li class="product_gallery_trigger_item">
-                        <a href="#" data-thumblink="images_example/products/27/830x580/ad63k.png" class="product_gallery_trigger_i_w">
-                            <img alt="mZ406C 6A 1p 4,5кА" src="assets/images_example/products/27/84x79/ad63k.jpg" class="product_gallery_trigger_i">
-                        </a>
-                    </li>
-                    <li class="product_gallery_trigger_item">
-                        <a href="#" data-thumblink="images_example/products/27/830x580/uzo.png" class="product_gallery_trigger_i_w">
-                            <img alt="mZ406C 6A 1p 4,5кА" src="assets/images_example/products/27/84x79/uzo.jpg" class="product_gallery_trigger_i">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            {'msGallery' | snippet : [
+                'tpl' => 'b.productGallery',
+                'limit' => 0,
+                'filetype' => 'image',
+            ]}
+
             <div class="product_about_block">
                 <div class="product_doc_block">
                     <div class="product_doc_text">
@@ -89,128 +72,10 @@
         <div class="product_info_block" id="product_full_desc">
             <div class="product_describe_block">
                 <h2 class="product_info_title">Характеристики</h2>
-
                 <div class="product_describe_text">
-                    <ul class="product_param_list">
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Номинальный ток In (А):</dt>
-                                <dd class="product_param_def">6</dd>
-                            </dl>
-                        </li>
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Характеристика отключения:</dt>
-                                <dd class="product_param_def">B</dd>
-                            </dl>
-                        </li>
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Количество полюсов:</dt>
-                                <dd class="product_param_def">4</dd>
-                            </dl>
-                        </li>
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Количество модулей шириной 18мм:</dt>
-                                <dd class="product_param_def">2</dd>
-                            </dl>
-                        </li>
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Вес, (г):</dt>
-                                <dd class="product_param_def">120</dd>
-                            </dl>
-                        </li>
-                    </ul>
-                    <ul class="product_param_list">
-                        <li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Номинальное напряжение АС Un:</dt>
-                                <dd class="product_param_def">230/400В</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Частота:</dt>
-                                <dd class="product_param_def">50-60Гц</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Предельно допустимый ток КЗ Соответствует ГОСТ Р 50345, IEC 60898  Icn/Ics:</dt>
-                                <dd class="product_param_def">4,5кА</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Минимальное рабочее напряжение Uвmin:</dt>
-                                <dd class="product_param_def">12В</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Номинальное напряжение изоляции:</dt>
-                                <dd class="product_param_def">500В</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Импульсное выдерживаемое напряжение:</dt>
-                                <dd class="product_param_def">4кВ</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Класс токоограничения:</dt>
-                                <dd class="product_param_def">3</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Износостойкость механическая/электрическая:</dt>
-                                <dd class="product_param_def">20000/10000 циклов</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Степень защиты:</dt>
-                                <dd class="product_param_def">IP20</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Рабочая температура:</dt>
-                                <dd class="product_param_def">от -25 до +55°C</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Температура калибровки:</dt>
-                                <dd class="product_param_def">30°C</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Температура хранения:</dt>
-                                <dd class="product_param_def">от -55 до +55°C</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Ввод гибкого/жесткого кабеля сечением мин:</dt>
-                                <dd class="product_param_def">0.75/1 мм2</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Ввод гибкого/жесткого кабеля сечением макс:</dt>
-                                <dd class="product_param_def">25/35 мм2</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Момент затяжки винтов:</dt>
-                                <dd class="product_param_def">2,5Нм</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Совместимые дополнительные устройства, присоединение слева:</dt>
-                                <dd class="product_param_def">Z06-AC, Z06-BC</dd>
-                            </dl>
-                        </li><li class="product_param_item">
-                            <dl class="product_param_block">
-                                <dt class="product_param_title">Совместимые дополнительные устройства, присоединение справа:</dt>
-                                <dd class="product_param_def">Z06-SR, Z06-SU</dd>
-                            </dl>
-                        </li>
-                    </ul>
+                    {'msProductOptions' | snippet : [
+                        'tpl' => 'b.productOptions',
+                    ]}
                 </div>
             </div>
             <div class="product_reply_block">

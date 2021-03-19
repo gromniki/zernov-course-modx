@@ -37,7 +37,7 @@ REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (27,19,21,'<p>LECTSHOP –
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (28,12,21,'Подробнее о нашем сотрудничестве');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (29,21,21,'<ol>\r\n<li>Конкурентные цены – увеличение рентабельности на 10-15%</li>\r\n<li>Отсрочку платежа – увеличение оборотных средств</li>\r\n<li>Бесплатную доставку</li>\r\n<li>Гарантию возврата товаров</li>\r\n<li>Маркетинговый бюджет для продвижения продукции</li>\r\n</ol>');
 REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (30,20,21,'Что вы получите работая с нами');
-REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (31,2,250,'[{\"MIGX_id\":\"1\",\"title\":\"Инструкция по установке\",\"link\":\"\",\"file\":\"documents/Список модулей.pdf\"},{\"MIGX_id\":\"2\",\"title\":\"Инструкция по обновлению\",\"link\":\"\",\"file\":\"documents/head_i_1.jpg\"}]');
+REPLACE INTO `modx_site_tmplvar_contentvalues` VALUES (31,2,250,'[{\"MIGX_id\":\"1\",\"title\":\"\\u0418\\u043d\\u0441\\u0442\\u0440\\u0443\\u043a\\u0446\\u0438\\u044f \\u043f\\u043e \\u0443\\u0441\\u0442\\u0430\\u043d\\u043e\\u0432\\u043a\\u0435\",\"link\":\"\",\"file\":\"documents\\/\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u043c\\u043e\\u0434\\u0443\\u043b\\u0435\\u0439.pdf\"},{\"MIGX_id\":\"2\",\"title\":\"\\u0418\\u043d\\u0441\\u0442\\u0440\\u0443\\u043a\\u0446\\u0438\\u044f \\u043f\\u043e \\u043e\\u0431\\u043d\\u043e\\u0432\\u043b\\u0435\\u043d\\u0438\\u044e\",\"link\":\"\",\"file\":\"documents\\/head_i_1.jpg\"}]');
 /*!40000 ALTER TABLE `modx_site_tmplvar_contentvalues` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

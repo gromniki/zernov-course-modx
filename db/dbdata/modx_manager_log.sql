@@ -5285,6 +5285,12 @@ REPLACE INTO `modx_manager_log` VALUES (5273,1,'2021-03-18 13:58:43','resource_u
 REPLACE INTO `modx_manager_log` VALUES (5274,1,'2021-03-18 15:21:09','template_update','modTemplate','41');
 REPLACE INTO `modx_manager_log` VALUES (5275,1,'2021-03-18 15:21:09','propertyset_update_from_element','modPropertySet','modTemplate 41 Default');
 REPLACE INTO `modx_manager_log` VALUES (5276,1,'2021-03-18 15:23:01','resource_update','msProduct','250');
+REPLACE INTO `modx_manager_log` VALUES (5277,1,'2021-03-18 21:49:01','resource_update','msProduct','250');
+REPLACE INTO `modx_manager_log` VALUES (5278,1,'2021-03-19 11:40:01','category_create','modCategory','32');
+REPLACE INTO `modx_manager_log` VALUES (5279,1,'2021-03-19 11:40:59','ms2_option_update','msOption','21');
+REPLACE INTO `modx_manager_log` VALUES (5280,1,'2021-03-19 11:41:37','ms2_option_update','msOption','50');
+REPLACE INTO `modx_manager_log` VALUES (5281,1,'2021-03-19 11:42:19','ms2_option_update','msOption','51');
+REPLACE INTO `modx_manager_log` VALUES (5282,1,'2021-03-19 12:11:25','ms2_option_update','msOption','39');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

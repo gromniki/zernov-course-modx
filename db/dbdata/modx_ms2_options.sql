@@ -29,7 +29,7 @@ REPLACE INTO `modx_ms2_options` VALUES (17,'nominalnyy_otklyuchayuschiy_differen
 REPLACE INTO `modx_ms2_options` VALUES (18,'predelnaya_kommutatsionnaya_sposobnost_Icu','Предельная коммутационная способность Icu',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (19,'temperatura_kalibrovki','Температура калибровки',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (20,'material','Материал',NULL,'',0,'textfield',NULL);
-REPLACE INTO `modx_ms2_options` VALUES (21,'dlina','Длина',NULL,NULL,0,'textfield',NULL);
+REPLACE INTO `modx_ms2_options` VALUES (21,'dlina','Длина','','М',32,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (22,'profil','Профиль',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (23,'tip_podklyucheniya','Тип подключения',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (24,'sechenie_provodnika','Сечение проводника',NULL,NULL,0,'textfield',NULL);
@@ -47,7 +47,7 @@ REPLACE INTO `modx_ms2_options` VALUES (35,'massa','Масса',NULL,NULL,0,'tex
 REPLACE INTO `modx_ms2_options` VALUES (36,'sposob_vklyucheniya','Способ включения',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (37,'diapazon_izmereniy','Диапазон измерений',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (38,'nominalnoe_rabochee_napryazhenie_Ue','Номинальное рабочее напряжение Ue',NULL,NULL,0,'textfield',NULL);
-REPLACE INTO `modx_ms2_options` VALUES (39,'nominalnaya_chastota','Номинальная частота',NULL,NULL,0,'textfield',NULL);
+REPLACE INTO `modx_ms2_options` VALUES (39,'nominalnaya_chastota','Номинальная частота','','А',32,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (40,'nominalnoe_napryazhenie_transformatora_Unom','Номинальное напряжение трансформатора Uном.',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (41,'naibolshee_rabochee_napryazhenie','Наибольшее рабочее напряжение',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (42,'nominalnaya_chastota_napryazheniya_seti_fnom','Номинальная частота напряжения сети fном',NULL,NULL,0,'textfield',NULL);
@@ -58,8 +58,8 @@ REPLACE INTO `modx_ms2_options` VALUES (46,'vstroennaya_shirina','Встроен
 REPLACE INTO `modx_ms2_options` VALUES (47,'kolichestvo_shin','Количество шин',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (48,'razmer_shiny_shhv','Размер шины ШхВ',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (49,'napryazhenie_pitaniya','Напряжение питания',NULL,NULL,0,'textfield',NULL);
-REPLACE INTO `modx_ms2_options` VALUES (50,'kolichestvo_faz','Количество фаз',NULL,'',0,'textfield',NULL);
-REPLACE INTO `modx_ms2_options` VALUES (51,'potreblyaemaya_moschnost','Потребляемая мощность',NULL,NULL,0,'textfield',NULL);
+REPLACE INTO `modx_ms2_options` VALUES (50,'kolichestvo_faz','Количество фаз','','',32,'textfield',NULL);
+REPLACE INTO `modx_ms2_options` VALUES (51,'potreblyaemaya_moschnost','Потребляемая мощность','','В',32,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (52,'diapazon_regulirovki_Ir','Диапазон регулировки Ir',NULL,NULL,0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (53,'diapazon_rabochih_tokov_sovmestimyh_kontaktorov_a','Диапазон рабочих токов совместимых контакторов, А',NULL,'',0,'textfield',NULL);
 REPLACE INTO `modx_ms2_options` VALUES (54,'tiporazmer_sovmestimyh_kontaktorov','Типоразмер совместимых контакторов',NULL,'',0,'textfield',NULL);
