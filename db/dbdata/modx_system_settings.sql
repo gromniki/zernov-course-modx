@@ -321,7 +321,7 @@ REPLACE INTO `modx_system_settings` VALUES ('error_log_filepath','','textfield',
 REPLACE INTO `modx_system_settings` VALUES ('mgr_tree_icon_mscategory','icon icon-barcode','textarea','minishop2','ms2_category','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('mgr_tree_icon_msproduct','icon icon-tag','textarea','minishop2','ms2_product','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('ms2_services','{\"cart\":[],\"order\":[],\"payment\":[],\"delivery\":[]}','textarea','minishop2','ms2_main','0000-00-00 00:00:00');
-REPLACE INTO `modx_system_settings` VALUES ('ms2_plugins','[]','textarea','minishop2','ms2_main','0000-00-00 00:00:00');
+REPLACE INTO `modx_system_settings` VALUES ('ms2_plugins','{\"count\":\"{core_path}components\\/lectshop\\/ms2plugins\\/index.php\"}','textarea','minishop2','ms2_main','2021-04-06 14:59:10');
 REPLACE INTO `modx_system_settings` VALUES ('ms2_category_grid_fields','id,menuindex,pagetitle,article,price,thumb,new,favorite,popular','textarea','minishop2','ms2_category','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('ms2_category_show_nested_products','1','combo-boolean','minishop2','ms2_category','0000-00-00 00:00:00');
 REPLACE INTO `modx_system_settings` VALUES ('ms2_category_show_comments','1','combo-boolean','minishop2','ms2_category','0000-00-00 00:00:00');

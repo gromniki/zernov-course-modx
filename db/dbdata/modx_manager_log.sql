@@ -5299,6 +5299,7 @@ REPLACE INTO `modx_manager_log` VALUES (5287,1,'2021-03-22 18:10:00','resource_u
 REPLACE INTO `modx_manager_log` VALUES (5288,1,'2021-04-05 18:08:10','resource_update','msProduct','241');
 REPLACE INTO `modx_manager_log` VALUES (5289,1,'2021-04-06 11:49:15','resource_update','msProduct','239');
 REPLACE INTO `modx_manager_log` VALUES (5290,1,'2021-04-06 11:50:43','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5291,1,'2021-04-06 15:00:16','resource_update','msProduct','239');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
