@@ -20,24 +20,24 @@
             <div id="cont_map_hold" class="cont_map_hold"></div>
         </div>
         {'!AjaxForm' | snippet : [
-          'form' => 'b.contactsForm',
-          'frontend_js' => 'assets/js/le-ajaxform.js',
-          'frontend_css' => '',
-          'hooks' => 'email,FormItSaveForm',
-          'submitVar' => 'sendContacts',
-          'emailTpl' => 'email.contactsForm',
-          'emailTo' => $_modx->config.le_forms_email,
-          'emailFrom' => $_modx->config.emailsender,
-          'emailSubject' => 'Задан вопрос на сайте ' ~ $_modx->config.site_url,
-          'validate' => 'name:required,email:fiValidatorCheckContactFields,phone:fiValidatorCheckContactFields,comment:required',
-          'customValidators' => 'fiValidatorCheckContactFields',
-          'validationErrorMessage' => 'Укажите корректную информацию. Заполните все необходимые поля.',
-          'successMessage' => 'Спасибо за ваш вопрос. Мы постараемся ответить на него в ближайшее время.',
-          'errTpl' => '[[+error]]',
-          'formName' => 'Контактная форма',
-          'formEncrypt' => '0',
-          'formFields' => 'name,email,phone,comment',
-          'fieldNames' => 'name==Имя клиента,email==Email,phone==Телефон,comment==Сообщение'
+            'form' => 'b.contactsForm',
+            'frontend_js' => 'assets/js/le-ajaxform.js',
+            'frontend_css' => '',
+            'hooks' => 'email,FormItSaveForm',
+            'submitVar' => 'sendContacts',
+            'emailTpl' => 'email.contactsForm',
+            'emailTo' => $_modx->config.le_forms_email,
+            'emailFrom' => $_modx->config.emailsender,
+            'emailSubject' => 'Задан вопрос на сайте ' ~ $_modx->config.site_url,
+            'validate' => 'name:required,email:fiValidatorCheckContactFields,phone:fiValidatorCheckContactFields,comment:required',
+            'customValidators' => 'fiValidatorCheckContactFields',
+            'validationErrorMessage' => 'Укажите корректную информацию. Заполните все необходимые поля.',
+            'successMessage' => 'Спасибо за ваш вопрос. Мы постараемся ответить на него в ближайшее время.',
+            'errTpl' => '[[+error]]',
+            'formName' => 'Контактная форма',
+            'formEncrypt' => '0',
+            'formFields' => 'name,email,phone,comment',
+            'fieldNames' => 'name==Имя клиента,email==Email,phone==Телефон,comment==Сообщение'
         ]}
     </div>
 </div>

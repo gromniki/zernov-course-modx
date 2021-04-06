@@ -13,6 +13,48 @@
                 version = 2
             }
         </div>
+
+        {'!pdoPage' | snippet : [
+            'plPrefix' => '',
+            'limit' => 2,
+            'maxLimit' => '100',
+            'pageVarKey' => 'page',
+            'totalVar' => 'page.total',
+            'pageLimit' => '5',
+            'element' => 'searchProducts',
+            'pageNavVar' => 'page.nav',
+            'pageCountVar' => 'pageCount',
+            'pageLinkScheme' => '',
+
+            'tplPage' => '@INLINE <li class="pag_item"><a class="pag_link" title="[[+pageNo]]" href="[[+href]]">[[+pageNo]]</a></li>',
+            'tplPageWrapper' => '@INLINE <div class="pag_block"><ul class="pag_list">[[+pages]]</ul></div>',
+            'tplPageActive' => '@INLINE <li class="pag_item"><a class="pag_link active_mod" title="[[+pageNo]]" href="[[+href]]">[[+pageNo]]</a></li>',
+            'tplPageSkip' => '@INLINE <li class="pag_item more_mod"><span>...</span></li>',
+
+            'cache' => '1',
+            'toPlaceholder' => '',
+            'frontend_js' => 'assets/js/lepdopage.js',
+            'frontend_css' => '',
+            'setMeta' => '1',
+            'strictMode' => '1',
+
+            'ajaxMode' => 'button',
+            'ajaxElemWrapper' => '#product_modifications',
+            'ajaxElemRows' => '#products_list',
+            'ajaxElemPagination' => '#product_modifications .pag_list',
+            'ajaxElemLink' => '#product_modifications .pag_link',
+            'ajaxElemMore' => '#products_more_button',
+            'ajaxTplMore' => '@INLINE <a href="#" class="news_load_more_block" id="products_more_button"><span class="news_load_more_block_in">Показать еще</span></a>',
+
+            'includeTVs' => '',
+            'processTVs' => '',
+            'tvPrefix' => '',
+            'tplCell' => 'e.productItemCellMod',
+            'tplList' => 'e.productItemListMod',
+            'includeThumbs' => 'preview',
+        ]}
+
+
         <div class="product_about_w">
             <div class="product_gallery">
                 <div class="product_gallery_i_w">
@@ -60,192 +102,10 @@
             </ul>
             <div id="tabs-1">
                 <div class="catalog_wrap mod_modifications" id="product_modifications">
-                    <aside class="catalog_aside_block">
-                        <div class="catalog_filter_block">
-                            <div class="catalog_filter_title">Модификации:</div>
-                            <div class="catalog_filter_in">
-                                <form id="catalog-filter-form" method="post">
-                                    <ul class="product_group_filter">
-                                        <li class="product_group_filter_option">
-                                            <div class="product_group_filter_caption">Номинальный ток In (А)</div>
-                                            <ul class="product_group_filter_items">
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="nominal_current_in" value="6" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">6</span>
-                                                    </label>
-                                                </li>
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="nominal_current_in" value="10" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">10</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="product_group_filter_option">
-                                            <div class="product_group_filter_caption">Характеристика отключения</div>
-                                            <ul class="product_group_filter_items">
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="turn_off_characteristic" value="B" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">B</span>
-                                                    </label>
-                                                </li>
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="turn_off_characteristic" value="C" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">C</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="product_group_filter_option">
-                                            <div class="product_group_filter_caption">Количество полюсов</div>
-                                            <ul class="product_group_filter_items">
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="poles_count" value="4" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">4</span>
-                                                    </label>
-                                                </li>
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="poles_count" value="8" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">8</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="product_group_filter_option">
-                                            <div class="product_group_filter_caption">Количество модулей шириной 18мм
-                                            </div>
-                                            <ul class="product_group_filter_items">
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="modules_18_count" value="2" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">2</span>
-                                                    </label>
-                                                </li>
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="modules_18_count" value="3" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">3</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="product_group_filter_option">
-                                            <div class="product_group_filter_caption">Вес, (г)</div>
-                                            <ul class="product_group_filter_items">
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="weight" value="120" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">120</span>
-                                                    </label>
-                                                </li>
-                                                <li class="product_group_filter_item">
-                                                    <label class="lbl_rb_ch_block filter_mod">
-                                                        <input type="checkbox" name="weight" value="220" class="lbl_inp_rb_ch hide_mod"><span class="lbl_rb_ch_text filter_mod">220</span>
-                                                    </label>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </div>
-                    </aside>
+                    {include 'b.catalogOptionsFilter'}
                     <div class="catalog_content">
-                        <form id="catalog-sort-form">
-                            <div class="catalog_sort_block">
-                                <ul class="catalog_sort_list">
-                                    <li class="catalog_sort_item">
-                                        <label class="lbl_rb_ch_block burger_mod">
-                                            <input name="layout" type="radio" value="list" checked="checked" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text burger_mod hline_hide_mod">Списком</span>
-                                        </label>
-                                        <label class="lbl_rb_ch_block cell_mod">
-                                            <input name="layout" type="radio" value="cell" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text cell_mod hline_hide_mod">Ячейками</span>
-                                        </label>
-                                    </li>
-                                    <li class="catalog_sort_item">
-                                        <div class="catalog_sort_title">Цена:</div>
-                                        <label class="lbl_rb_ch_block price_top_mod">
-                                            <input name="sort" type="radio" value="Data.price:asc" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text price_top_mod hline_hide_mod">Сначала дешевые</span>
-                                        </label>
-                                        <label class="lbl_rb_ch_block price_bottom_mod">
-                                            <input name="sort" type="radio" value="Data.price:desc" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text price_bottom_mod hline_hide_mod">Сначала дорогие</span>
-                                        </label>
-
-                                        <div class="catalog_sort_title">А-Я:</div>
-                                        <label class="lbl_rb_ch_block letters_top_mod">
-                                            <input name="sort" type="radio" value="pagetitle:asc" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text letters_top_mod hline_hide_mod">А-Я</span>
-                                        </label>
-                                        <label class="lbl_rb_ch_block letters_bottom_mod">
-                                            <input name="sort" type="radio" value="pagetitle:desc" class="lbl_inp_rb_ch hide_mod"/><span class="lbl_rb_ch_text letters_bottom_mod hline_hide_mod">Я-А</span>
-                                        </label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </form>
-                        <ul class="catalog_list" id="catalog-products-container">
-                            <li class="catalog_item single_mod mod_list">
-                                <div class="product_block single_mod">
-                                    <div class="product_i_w">
-                                        <img alt="" src="assets/images_example/products/27/380x178/avtomaticheskie-vyklyuchateli-iek-1.png" class="product_i"/>
-                                    </div>
-                                    <div class="product_static_block single_mod">
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-6a-1p-4,5ka.html" class="product_title single_mod">
-                                            <span class="product_title_text">mZ406C 6A 1p 4,5кА</span>
-                                            <span class="product_article single_mod">арт.: z406c</span>
-                                        </a>
-                                        <div class="product_price_block v1_mod">
-                                            <div class="product_price v1_mod"><span class="big">1 350</span>
-                                                <span class="small">руб</span>
-                                            </div>
-                                        </div>
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-6a-1p-4,5ka.html" class="product_static_butt">
-                                            <span class="product_static_butt_in">Подробнее</span>
-                                        </a>
-                                    </div>
-                                    <div class="product_sliding_block">
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-6a-1p-4,5ka.html" class="product_title single_mod">mZ406C
-                                            6A 1p 4,5кА</a>
-                                        <div class="product_price_block v1_mod">
-                                            <div class="product_price v1_mod"><span class="big">1 350</span>
-                                                <span class="small">руб</span>
-                                            </div>
-                                        </div>
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-6a-1p-4,5ka.html" class="product_sliding_butt">
-                                            <span class="product_sliding_butt_in">Подробнее</span></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="catalog_item single_mod mod_list">
-                                <div class="product_block single_mod">
-                                    <div class="product_i_w">
-                                        <img alt="" src="assets/images_example/products/28/380x178/0d7ee13380653d9b0ef18bb115008a82.png" class="product_i"/>
-                                    </div>
-                                    <div class="product_static_block single_mod">
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-10a-1p-4,5ka.html" class="product_title single_mod">
-                                            <span class="product_title_text">mZ406C 10A 1p 4,5кА</span>
-
-                                        </a>
-                                        <div class="product_price_block v1_mod">
-                                            <div class="product_price v1_mod"><span class="big">1 320</span>
-                                                <span class="small">руб</span>
-                                            </div>
-                                        </div>
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-10a-1p-4,5ka.html" class="product_static_butt">
-                                            <span class="product_static_butt_in">Подробнее</span>
-                                        </a>
-                                    </div>
-                                    <div class="product_sliding_block">
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-10a-1p-4,5ka.html" class="product_title single_mod">mZ406C
-                                            10A 1p 4,5кА</a>
-                                        <div class="product_price_block v1_mod">
-                                            <div class="product_price v1_mod"><span class="big">1 320</span>
-                                                <span class="small">руб</span>
-                                            </div>
-                                        </div>
-                                        <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/mz406c-10a-1p-4,5ka.html" class="product_sliding_butt">
-                                            <span class="product_sliding_butt_in">Подробнее</span></a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
+                        {include 'b.catalogSort'}
+                        {include 'b.catalogProducts'}
                     </div>
                 </div>
             </div>

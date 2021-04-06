@@ -5291,6 +5291,14 @@ REPLACE INTO `modx_manager_log` VALUES (5279,1,'2021-03-19 11:40:59','ms2_option
 REPLACE INTO `modx_manager_log` VALUES (5280,1,'2021-03-19 11:41:37','ms2_option_update','msOption','50');
 REPLACE INTO `modx_manager_log` VALUES (5281,1,'2021-03-19 11:42:19','ms2_option_update','msOption','51');
 REPLACE INTO `modx_manager_log` VALUES (5282,1,'2021-03-19 12:11:25','ms2_option_update','msOption','39');
+REPLACE INTO `modx_manager_log` VALUES (5283,1,'2021-03-19 22:34:48','object_create','msLink','1');
+REPLACE INTO `modx_manager_log` VALUES (5284,1,'2021-03-19 22:36:04','object_create','msLink','2');
+REPLACE INTO `modx_manager_log` VALUES (5285,1,'2021-03-19 22:40:08','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5286,1,'2021-03-19 22:41:44','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5287,1,'2021-03-22 18:10:00','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5288,1,'2021-04-05 18:08:10','resource_update','msProduct','241');
+REPLACE INTO `modx_manager_log` VALUES (5289,1,'2021-04-06 11:49:15','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5290,1,'2021-04-06 11:50:43','resource_update','msProduct','239');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

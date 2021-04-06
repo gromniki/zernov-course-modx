@@ -1,0 +1,40 @@
+{* пример вызова pdoPage, с конкретными параметрами 27 урока *}
+{'!pdoPage' | snippet : [
+    'plPrefix' => '',
+    'limit' => 2,
+    'maxLimit' => '100',
+    'pageVarKey' => 'page',
+    'totalVar' => 'page.total',
+    'pageLimit' => '5',
+    'element' => 'searchProducts',
+    'pageNavVar' => 'page.nav',
+    'pageCountVar' => 'pageCount',
+    'pageLinkScheme' => '',
+
+    'tplPage' => '@INLINE <li class="pag_item"><a class="pag_link" title="[[+pageNo]]" href="[[+href]]">[[+pageNo]]</a></li>',
+    'tplPageWrapper' => '@INLINE <div class="pag_block"><ul class="pag_list">[[+pages]]</ul></div>',
+    'tplPageActive' => '@INLINE <li class="pag_item"><a class="pag_link active_mod" title="[[+pageNo]]" href="[[+href]]">[[+pageNo]]</a></li>',
+    'tplPageSkip' => '@INLINE <li class="pag_item more_mod"><span>...</span></li>',
+
+    'cache' => '1',
+    'toPlaceholder' => '',
+    'frontend_js' => 'assets/js/lepdopage.js',
+    'frontend_css' => '',
+    'setMeta' => '1',
+    'strictMode' => '1',
+
+    'ajaxMode' => 'button',
+    'ajaxElemWrapper' => '#product_modifications',
+    'ajaxElemRows' => '#products_list',
+    'ajaxElemPagination' => '#product_modifications .pag_list',
+    'ajaxElemLink' => '#product_modifications .pag_link',
+    'ajaxElemMore' => '#products_more_button',
+    'ajaxTplMore' => '@INLINE <a href="#" class="news_load_more_block" id="products_more_button"><span class="news_load_more_block_in">Показать еще</span></a>',
+
+    'includeTVs' => '',
+    'processTVs' => '',
+    'tvPrefix' => '',
+    'tplCell' => 'e.productItemCellMod',
+    'tplList' => 'e.productItemListMod',
+    'includeThumbs' => 'preview',
+]}

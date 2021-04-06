@@ -14,4 +14,6 @@ return [
     'le_manager_upload_files_path' => 'assets/files/',
 
     'le_news_on_page_limit' => 2,
+
+    'le_default_image' => 'assets/i/category_default_image.png',
 ];

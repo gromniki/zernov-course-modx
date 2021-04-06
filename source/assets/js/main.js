@@ -15,6 +15,7 @@ var $body,
 	$actions_slider_2,
 	$catalog_triggers,
 	$product_slider_1,
+    $product_slider_2,
 	$novelty_slider_1,
 	$st_map_hold,
 	$cont_map_hold,
@@ -150,6 +151,7 @@ $(document).ready(function ($) {
 	$actions_slider_2 = $('#actions_slider_2');
 	$catalog_triggers = $('#catalog_triggers');
 	$product_slider_1 = $('#product_slider_1');
+    $product_slider_2 = $('#product_slider_2');
 	$novelty_slider_1 = $('#novelty_slider_1');
 	$st_map_hold = $('#st_map_hold');
 	$cont_map_hold = $('#cont_map_hold');
@@ -279,6 +281,9 @@ function resize_f() {
 	if ($product_slider_1.length) {
 		$product_slider_1.reloadSlider();
 	}
+    if ($product_slider_2.length) {
+        $product_slider_2.reloadSlider();
+    }
 	if ($actions_slider_2.length) {
 		$actions_slider_2.reloadSlider();
 	}
@@ -329,6 +334,15 @@ function load_f() {
 			infiniteLoop: true
 		});
 	}
+    if ($product_slider_2.length) {
+        $product_slider_2.bxSlider({
+            controls: false,
+            auto: true,
+            pause: typeof productSliderPause == 'undefined' ? 2000 : productSliderPause,
+            autoHover: true,
+            infiniteLoop: true
+        });
+    }
 	if ($novelty_slider_1.length) {
 		$novelty_slider_1.bxSlider({
 			controls: true,

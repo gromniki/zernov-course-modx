@@ -6,5 +6,9 @@ return array(
 
     'OnDocFormSave' => [
         'changeMediaSource'
-    ]
+    ],
+
+    'OnLoadWebDocument' => [
+        'viewedProducts'
+    ],
 );

@@ -9,8 +9,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_register_messages` DISABLE KEYS */;
-REPLACE INTO `modx_register_messages` VALUES (3,'e4bce4561a23feafc085638667e128ad','2021-03-18 13:56:28','2021-03-18 13:56:28',NULL,0,1616151388,'if (time() > 1616151388) return null;\nreturn true;\n',0);
-REPLACE INTO `modx_register_messages` VALUES (1,'6c9882bbac1c7093bd25041881277658','2021-03-19 12:11:30','2021-03-19 12:11:30',NULL,0,1616145450,'if (time() > 1616145450) return null;\nreturn 1;\n',0);
+REPLACE INTO `modx_register_messages` VALUES (3,'e4bce4561a23feafc085638667e128ad','2021-04-05 18:05:51','2021-04-05 18:05:51',NULL,0,1617721551,'if (time() > 1617721551) return null;\nreturn true;\n',0);
 REPLACE INTO `modx_register_messages` VALUES (1,'1c383cd30b7c298ab50293adfecb7b18','2021-03-15 12:28:09','2021-03-15 12:28:09',NULL,0,1615800849,'if (time() > 1615800849) return null;\nreturn 1;\n',0);
 REPLACE INTO `modx_register_messages` VALUES (1,'19ca14e7ea6328a42e0eb13d585e4c22','2021-03-15 12:28:09','2021-03-15 12:28:09',NULL,0,1615800849,'if (time() > 1615800849) return null;\nreturn 1;\n',0);
 /*!40000 ALTER TABLE `modx_register_messages` ENABLE KEYS */;
