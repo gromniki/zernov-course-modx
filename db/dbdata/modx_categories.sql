@@ -29,6 +29,7 @@ REPLACE INTO `modx_categories` VALUES (29,0,'Блок о сотрудничес�
 REPLACE INTO `modx_categories` VALUES (30,0,'Блок справочника ГОСТ',0);
 REPLACE INTO `modx_categories` VALUES (31,0,'Что вы получите',0);
 REPLACE INTO `modx_categories` VALUES (32,0,'Отображаемые опции товара',0);
+REPLACE INTO `modx_categories` VALUES (33,0,'Характеристики',0);
 /*!40000 ALTER TABLE `modx_categories` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

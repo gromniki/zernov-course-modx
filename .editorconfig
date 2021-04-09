@@ -20,7 +20,7 @@ trim_trailing_whitespace = true
 [*.{html,php,js,css,scss}]
 end_of_line = lf
 
-[*.{js,css}]
+[*.{css}]
 indent_size = 2
 
 [*.md]

@@ -8,7 +8,14 @@ miniShop2.plugin.count = {
                 fieldLabel: 'Количество на складе',
                 allowNegative: false,
                 allowBlank: false,
-            }
+            },
+            order_price: {
+                xtype: 'numberfield',
+                decimalPrecision: 2,
+                description: '<b>[[+order_price]]</b><br />Цена под заказ',
+                fieldLabel: 'Цена под заказ',
+                allowNegative: false,
+            },
         }
     },
     // Изменение колонок таблицы товаров в категории
@@ -22,6 +29,19 @@ miniShop2.plugin.count = {
                     name: 'count',
                     allowNegative: false,
                     allowBlank: false,
+                }
+            },
+            order_price: {
+                width: 50,
+                sortable: true,
+                header: 'Цена под заказ',
+                editor: {
+                    xtype: 'numberfield',
+                    name: 'order_price',
+                    allowNegative: false,
+                },
+                renderer: function (value) {
+                    return value.replace(/\.00$/, '');
                 }
             }
         }

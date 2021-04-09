@@ -3,6 +3,7 @@
 return array(
     'fields' => array(
         'count' => 0,
+        'order_price' => 0.0,
     ),
     'fieldMeta' => array(
         'count' => array(
@@ -12,6 +13,13 @@ return array(
             'phptype' => 'integer',
             'null' => true,
             'default' => 0,
+        ),
+        'order_price' => array(
+            'dbtype' => 'decimal',
+            'precision' => '12,2',
+            'phptype' => 'float',
+            'null' => true,
+            'default' => 0.0,
         ),
     ),
     'indexes' => array(
@@ -27,6 +35,20 @@ return array(
                     'null' => false,
                 ),
             ),
+        ),
+        'order_price' => array(
+            'alias' => 'order_price',
+            'primary' => false,
+            'unique' => false,
+            'type' => 'BTREE',
+            'columns' =>
+                array(
+                    'order_price' => array(
+                        'length' => '',
+                        'collation' => 'A',
+                        'null' => false,
+                    ),
+                ),
         ),
     ),
 );

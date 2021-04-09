@@ -23,6 +23,7 @@ CREATE TABLE `modx_ms2_products` (
   `size` text,
   `source` int(10) unsigned DEFAULT '1',
   `count` int(10) unsigned DEFAULT '0',
+  `order_price` decimal(12,2) DEFAULT '0.00',
   PRIMARY KEY (`id`),
   KEY `article` (`article`),
   KEY `price` (`price`),
@@ -32,7 +33,8 @@ CREATE TABLE `modx_ms2_products` (
   KEY `favorite` (`favorite`),
   KEY `popular` (`popular`),
   KEY `made_in` (`made_in`),
-  KEY `count` (`count`)
+  KEY `count` (`count`),
+  KEY `order_price` (`order_price`)
 ) ENGINE=InnoDB AUTO_INCREMENT=538 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

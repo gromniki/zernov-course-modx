@@ -5300,6 +5300,16 @@ REPLACE INTO `modx_manager_log` VALUES (5288,1,'2021-04-05 18:08:10','resource_u
 REPLACE INTO `modx_manager_log` VALUES (5289,1,'2021-04-06 11:49:15','resource_update','msProduct','239');
 REPLACE INTO `modx_manager_log` VALUES (5290,1,'2021-04-06 11:50:43','resource_update','msProduct','239');
 REPLACE INTO `modx_manager_log` VALUES (5291,1,'2021-04-06 15:00:16','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5292,1,'2021-04-06 16:01:26','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5293,1,'2021-04-06 16:01:41','resource_update','msProduct','239');
+REPLACE INTO `modx_manager_log` VALUES (5294,1,'2021-04-09 16:43:35','template_update','modTemplate','26');
+REPLACE INTO `modx_manager_log` VALUES (5295,1,'2021-04-09 16:43:35','propertyset_update_from_element','modPropertySet','modTemplate 26 Default');
+REPLACE INTO `modx_manager_log` VALUES (5296,1,'2021-04-09 16:45:16','resource_update','msCategory','39');
+REPLACE INTO `modx_manager_log` VALUES (5297,1,'2021-04-09 16:56:36','category_create','modCategory','33');
+REPLACE INTO `modx_manager_log` VALUES (5298,1,'2021-04-09 16:57:45','tv_create','modTemplateVar','22');
+REPLACE INTO `modx_manager_log` VALUES (5299,1,'2021-04-09 16:59:45','resource_update','msCategory','39');
+REPLACE INTO `modx_manager_log` VALUES (5300,1,'2021-04-09 17:01:20','resource_update','msCategory','39');
+REPLACE INTO `modx_manager_log` VALUES (5301,1,'2021-04-09 17:03:54','resource_update','msCategory','39');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

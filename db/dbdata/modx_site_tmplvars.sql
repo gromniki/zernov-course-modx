@@ -30,6 +30,7 @@ REPLACE INTO `modx_site_tmplvars` VALUES (18,1,0,'textarea','collaborateText2','
 REPLACE INTO `modx_site_tmplvars` VALUES (19,1,0,'richtext','collaborateRichText','Текст блока \"Подробнее о сотрудничестве\"','Если не заполнить, поле выведено не будет',0,29,0,'',25,'default','','a:0:{}','a:1:{s:10:\"allowBlank\";s:4:\"true\";}','a:0:{}',0,'');
 REPLACE INTO `modx_site_tmplvars` VALUES (20,1,0,'text','whatYouTakeTitle','Заголовок блока \"Что вы получите\"','Оставьте пустым для значения по умолчанию',0,31,0,'',10,'default','','a:0:{}','a:5:{s:10:\"allowBlank\";s:4:\"true\";s:9:\"minLength\";s:0:\"\";s:9:\"maxLength\";s:0:\"\";s:5:\"regex\";s:0:\"\";s:9:\"regexText\";s:0:\"\";}','a:0:{}',0,'');
 REPLACE INTO `modx_site_tmplvars` VALUES (21,1,0,'richtext','whatYouTakeRichText','Текст блока \"Что вы получите\"','Если не заполнить, поле выведено не будет',0,31,0,'',20,'default','','a:0:{}','a:5:{s:10:\"allowBlank\";s:4:\"true\";s:9:\"minLength\";s:0:\"\";s:9:\"maxLength\";s:0:\"\";s:5:\"regex\";s:0:\"\";s:9:\"regexText\";s:0:\"\";}','a:0:{}',0,'');
+REPLACE INTO `modx_site_tmplvars` VALUES (22,1,0,'migx','commonParameters','Общие характеристики группы товаров','',0,33,0,'',0,'default','','a:0:{}','a:7:{s:7:\"configs\";s:16:\"commonParameters\";s:8:\"formtabs\";s:0:\"\";s:7:\"columns\";s:0:\"\";s:7:\"btntext\";s:0:\"\";s:10:\"previewurl\";s:0:\"\";s:10:\"jsonvarkey\";s:0:\"\";s:19:\"autoResourceFolders\";s:5:\"false\";}','a:0:{}',0,'');
 /*!40000 ALTER TABLE `modx_site_tmplvars` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
