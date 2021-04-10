@@ -9,12 +9,10 @@
     <div class="base footer_v1_mod">
         <div class="page_head_block v3_mod">
             <h1 class="page_head_title black_mod">{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h1>
-            {include 'b.breadCrumbs'
-                version = 2
-            }
+            {include 'b.breadCrumbs' version = 2}
         </div>
 
-        {'!pdoPage' | snippet : [
+{*        {'!pdoPage' | snippet : [
             'plPrefix' => '',
             'limit' => 2,
             'maxLimit' => '100',
@@ -52,41 +50,57 @@
             'tplCell' => 'e.productItemCellMod',
             'tplList' => 'e.productItemListMod',
             'includeThumbs' => 'preview',
-        ]}
+        ]}*}
 
 
         <div class="product_about_w">
-            <div class="product_gallery">
-                <div class="product_gallery_i_w">
-                    <img alt="z406" src="assets/images_example/products/176/830x580/ad63k.png" class="product_gallery_i"></div>
+            {'ms2Gallery' | snippet : [
+                'frontend_css' => '',
+                'frontend_js' => '',
+                'parents' => 0,
+                'resources' => $_modx->resource.id,
+                'tpl' => 'b.productGallery',
+                'limit' => 0,
+                'filetype' => 'image',
+            ]}
 
-            </div>
+
             <div class="product_about_block">
                 <div class="product_doc_block">
                     <div class="product_doc_text">
-                        Краткое вводное описание к товару
+                        [[*content]]
                     </div>
-                    <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/#product_full_desc" class="product_param_more_link">Подробнее
+                    <a href="[[*uri]]#product_full_desc" class="product_param_more_link">Подробнее
                         о товаре и его характеристиках</a><br>
-                    <a href="katalog/modulnoe-oborudovanie/avtomaticheskie-vyklyuchateli/z406/#product_modifications" class="product_param_more_link">Подбор
-                        товара</a>
-                    <ul class="product_doc_list">
-                        <li class="product_doc_item">
-                            <a href="documents/phantom_likeNote_2007-08_a4.pdf" class="product_doc_link file_mod"><span>Паспорт изделия </span></a>
-                            <span class="product_doc_def">(pdf, 2Мб)</span>
-                        </li>
-                        <li class="product_doc_item">
-                            <a href="documents/phantom_likeNote_2007-08_a4.pdf" class="product_doc_link file_mod"><span>Модификации и характеристики </span></a>
-                            <span class="product_doc_def">(pdf, 2Мб)</span>
-                        </li>
-
-
-                    </ul>
+                    <a href="[[*uri]]#product_modifications" class="product_param_more_link">Подбор товара</a>
+                    {set $files = $_modx->resource.fileList | json_decode}
+                    {if ($files | iterable) && ($files | count > 0)}
+                        <ul class="product_doc_list">
+                            {foreach $files as $file}
+                                <li class="product_doc_item">
+                                    {if $file.link}
+                                        <a href="{$file.link}" target="_blank" class="product_doc_link file_mod">
+                                            <span>{$file.title}</span>
+                                        </a>
+                                    {/if}
+                                    {if $file.file}
+                                        <a href="{'le_manager_upload_files_path' | option}{$file.file}"
+                                           class="product_doc_link file_mod" download>
+                                            <span>{$file.title}</span>
+                                        </a>
+                                        <span class="product_doc_def">
+                                            {($_modx->config.le_manager_upload_files_path ~ $file.file) | fileInfo : '@INLINE ({$extension}, {$filesize}{$unit})'}
+                                        </span>
+                                    {/if}
+                                </li>
+                            {/foreach}
+                        </ul>
+                    {/if}
                 </div>
                 <div class="product_price_block v3_mod">
                     <ul class="product_ui_list">
                         <li class="product_ui_item">
-                            <a href="gde-kupit/" class="product_ui_link loc_mod">Где купить</a>
+                            <a href="[[~[[++le_where_to_buy_page_id]]]]" class="product_ui_link loc_mod">Где купить</a>
                         </li>
 
 
@@ -397,76 +411,11 @@
                 </li>
             </ul>
         </div>
-        <div class="product_market_block">
-            <h2 class="product_market_title">Вы недавно смотрели</h2>
-            <ul class="product_market_list">
-                <li class="product_market_item">
-                    <div class="product_block single_mod">
-                        <div class="product_i_w">
-                            <img alt="" src="assets/images_example/products/183/380x178/z606.2.png" class="product_i"/></div>
-                        <div class="product_static_block single_mod">
-                            <a href="katalog/z606-serii-effica-12kv-1.6a.html" class="product_title single_mod">
-                                <span class="product_title_text">z606 серии Effica 12кВ 1.6А</span>
-
-                            </a>
-                            <div class="product_price_block v1_mod">
-                                <div class="product_price v1_mod"><span class="big">0</span>
-                                    <span class="small">руб</span>
-                                </div>
-                            </div>
-                            <a href="katalog/z606-serii-effica-12kv-1.6a.html" class="product_static_butt">
-                                <span class="product_static_butt_in">Подробнее</span>
-                            </a>
-                        </div>
-                        <div class="product_sliding_block">
-                            <a href="katalog/z606-serii-effica-12kv-1.6a.html" class="product_title single_mod">z606
-                                серии Effica 12кВ 1.6А</a>
-                            <div class="product_price_block v1_mod">
-                                <div class="product_price v1_mod"><span class="big">0</span>
-                                    <span class="small">руб</span>
-                                </div>
-                            </div>
-                            <a href="katalog/z606-serii-effica-12kv-1.6a.html" class="product_sliding_butt">
-                                <span class="product_sliding_butt_in">Подробнее</span></a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        {include 'b.viewedProductsSection'}
     </div>
 </div>
 {include 'b.footer'}
-<div class="modal" id="popup_search_form">
-    <a href="#popup_search_form" class="modal_bg" data-toggle="modal">
-    </a>
-    <a href="#popup_search_form" class="modal_close active_mod" data-toggle="modal">
-    </a>
-    <div class="modal_content">
-        <div class="modal_title mod_big">Поиск товаров</div>
-        <form class="" method="get" action="rezultaty-poiska.html">
-            <dl class="form_cell form_cell_v2_mod">
-                <dt class="form_c_hline form_v2_mod hline_hide_mod">
-                    <label for="search_catalog">Введите наименование товара</label>
-                </dt>
-                <dd class="form_c_f_w form_v2_mod hline_hide_mod">
-                    <button type="submit" class="input_link search_mod">Искать</button>
-                    <input type="hidden" name="parent" value="5">
-                    <input type="text" name="term" id="search_catalog" placeholder="Введите наименование товара" class="f_c_field second_mod search_mod" value=""/>
-                </dd>
-            </dl>
-        </form>
-    </div>
-</div>
-<div class="global_notification_container">
-    <div class="gn_bg"></div>
-    <div class="gn_hold">
-        <div class="gn_message"></div>
-        <a href="#" class="gn_close">закрыть</a>
-    </div>
-</div>
 {include 'b.footerScripts'}
-
-<script src="assets/js/catalog.js"></script>
 <script>
     elvSortForm.currentParams.page = 1;
     elvSortForm.currentParams.parent = 176;

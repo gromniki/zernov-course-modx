@@ -64,7 +64,7 @@
                     <a class="input_link" href="#">В корзину</a>
                     <ul class="product_ui_list">
                         <li class="product_ui_item">
-                            <a href="gde-kupit/" class="product_ui_link loc_mod">Где купить</a>
+                            <a href="[[~[[++le_where_to_buy_page_id]]]]" class="product_ui_link loc_mod">Где купить</a>
                         </li>
                     </ul>
                 </div>
@@ -200,17 +200,7 @@
             'sortby' => 'RAND()',
         ]}
 
-        {if $.session.le_viewed_products && ($.session.le_viewed_products | count) > 0}
-            {'msProducts' | snippet : [
-                'tpl' => 'e.linkedProductItem',
-                'tplWrapper' => 'b.viewedProducts',
-                'limit' => 12,
-                'parents' => 0,
-                'resources' => ($.session.le_viewed_products | join : ', '),
-                'includeThumbs' => 'preview',
-                'wrapIfEmpty' => false,
-            ]}
-        {/if}
+        {include 'b.viewedProductsSection'}
     </div>
     {include 'b.footer'}
     {include 'b.footerScripts'}
